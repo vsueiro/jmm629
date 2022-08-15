@@ -274,7 +274,7 @@ Plan your project:
 • …?
 • …?
 
-Due ___, via Blackboard.
+Due Oct 11, via Blackboard.
 ```
 
 ##### Assignment: 🎤 Presentation
@@ -283,7 +283,7 @@ Present your project:
 
 • Up to 5 minutes
 
-Due ___ or ___, during class.
+Due Oct 25 or 27, during class.
 ```
 
 ##### Assignment: 💻 Submission
@@ -294,7 +294,7 @@ Submit your project:
 • Screen capture or recording
 • Paragraph describing what you would have done differently – and why
 
-Due ___, via Blackboard.
+Due Nov 1, via Blackboard.
 ```
 
 #### Third Project: Datavis for Communicating Data
@@ -383,7 +383,7 @@ Plan your project:
 • …?
 • …?
 
-Due ___, via Blackboard.
+Due Nov 8, via Blackboard.
 ```
 
 ##### Assignment: 🎤 Presentation
@@ -392,7 +392,7 @@ Present your project:
 
 • Up to 5 minutes
 
-Due ___ or ___, during class.
+Due Nov 29 or Dec 1, during class.
 ```
 
 ##### Assignment: 💻 Submission
@@ -403,7 +403,7 @@ Submit your project:
 • Screen capture or recording
 • Paragraph describing what you would have done differently – and why
 
-Due ___, via Blackboard.
+Due Dec 6, via Blackboard.
 ```
 
 #### Looking Ahead
@@ -436,7 +436,7 @@ Due ___, via Blackboard.
 ```
 …
 
-Due ___, via Blackboard.
+Due Dec 14, via Blackboard.
 ```
 
 ## Grading
