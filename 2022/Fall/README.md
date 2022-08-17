@@ -476,9 +476,19 @@ Due Dec 6, via Blackboard.
 
 ##### Assignment: 🔭 Self-reflection 
 ```
-…
+Submit a self-reflection considering:
 
-Due Dec 14, via Blackboard.
+• Your experience learning about infographics & data visualization
+• How it relates to your future pursuits (personal & professional)
+
+The format could either be:
+
+• Written (up to a page); or
+• Video recording (up to 5 minutes)
+
+Feel free to include sketches, photos or any other media.
+
+Due Dec 14, via Blackboard (instead of Final Exam).
 ```
 
 ## Grading
