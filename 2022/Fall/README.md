@@ -87,7 +87,6 @@ The following tables briefly describe what we will be doing during class (“Con
             Watch <a href="https://youtu.be/YoXxevp1WRQ?t=313">this</a>, from <code>5:13</code> to <code>41:54</code>, to learn how computers cleverly represent numbers, text, color, images & even emoji
             <br><br>
             -->
-            Sign up for <a href="https://codesandbox.io/">CodeSandbox</a>
         </td>
         <td>
             Creating an input visualization & demystifying basic statistic concepts
@@ -97,7 +96,11 @@ The following tables briefly describe what we will be doing during class (“Con
         <td rowspan=2>2</td>
         <td>Tue</td>
         <td>Aug 30</td>
-        <td>Watch <a href="https://youtu.be/5g0x2xv3aHU?t=3155">this</a> to better understand the potential of HTML & CSS</td>
+        <td>
+            Watch <a href="https://youtu.be/5g0x2xv3aHU?t=3155">this</a> to better understand the potential of HTML & CSS
+            <br><br>
+            Sign up for <a href="https://codesandbox.io/">CodeSandbox</a>
+        </td>
         <td>Coding a simple data visualization with HTML & CSS</td>
     </tr>
     <tr>
@@ -143,18 +146,20 @@ Due Sep 6, via Blackboard.
         <td rowspan=2>3</td>
         <td>Tue</td>
         <td>Sep 6</td>
-        <td></td>
+        <td>
+            Watch <a href="https://www.youtube.com/watch?v=qfF4Pj3XJKA">this</a> or read <a href="http://hdl.handle.net/1880/114011">this</a> to learn more about “input visualizations”
+        </td>
         <td>
             Presenting project goals, deliveries and due dates
             <br><br>
-            …
+            Discussing input visualization examples
         </td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Sep 8</td>
-        <td></td>
-        <td></td>
+        <td>Watch <a href="https://youtu.be/5g0x2xv3aHU?t=6774">this</a>, from <code>1:50:50</code> to <code>2:25:40</code>, to learn the basics of JavaScript</td>
+        <td>Coding a simple input visualization with HTML, CSS & JS</td>
     </tr>
     <tr>
         <td rowspan=2>4</td>
@@ -248,14 +253,14 @@ Due Oct 4, via Blackboard.
         <td>
             Presenting project goals, deliveries and due dates
             <br><br>
-            …
+            Discussing the value of graphics during exploratory analysis
         </td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Oct 6</td>
         <td></td>
-        <td></td>
+        <td>Coding a histogram and a scatter plot</td>
     </tr>
     <tr>
         <td rowspan=2>8</td>
@@ -345,17 +350,18 @@ Due Nov 1, via Blackboard.
         <td>Tue</td>
         <td>Nov 1</td>
         <td>
+        </td>
+        <td>
             Presenting project goals, deliveries and due dates
             <br><br>
-            …
+            Discussing exploratory & explanatory approaches
         </td>
-        <td></td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Nov 3</td>
         <td></td>
-        <td></td>
+        <td>Coding a step-by-step visual narrative</td>
     </tr>
     <tr>
         <td rowspan=2>12</td>
@@ -458,7 +464,7 @@ Due Dec 6, via Blackboard.
         <td>Tue</td>
         <td>Dec 6</td>
         <td></td>
-        <td>Discussing the future of datavis – and paths we can take</td>
+        <td>Discussing the future of infographics and data visualization – and paths we can take</td>
     </tr>
     <tr>
         <td>Thu</td>
