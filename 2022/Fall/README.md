@@ -87,6 +87,7 @@ The following tables briefly describe what we will be doing during class (“Con
             Watch <a href="https://youtu.be/YoXxevp1WRQ?t=313">this</a>, from <code>5:13</code> to <code>41:54</code>, to learn how computers cleverly represent numbers, text, color, images & even emoji
             <br><br>
             -->
+            Watch <a href="https://www.youtube.com/watch?v=3L8SzEtfQKE">this</a> for a practical introduction to visual variables
         </td>
         <td>
             Creating an input visualization & demystifying basic statistic concepts
