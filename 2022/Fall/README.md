@@ -82,33 +82,48 @@ The following tables briefly describe what we will be doing during class (“Con
     <tr>
         <td>Thu</td>
         <td>Aug 25</td>
-        <td></td>
-        <td></td>
+        <td>
+            <!--
+            Watch <a href="https://youtu.be/YoXxevp1WRQ?t=313">this</a>, from <code>5:13</code> to <code>41:54</code>, to learn how computers cleverly represent numbers, text, color, images & even emoji
+            <br><br>
+            -->
+            Sign up for <a href="https://codesandbox.io/">CodeSandbox</a>
+        </td>
+        <td>
+            Creating an input visualization & demystifying basic statistic concepts
+        </td>
     </tr>
     <tr>
         <td rowspan=2>2</td>
         <td>Tue</td>
         <td>Aug 30</td>
-        <td></td>
-        <td></td>
+        <td>Watch <a href="https://youtu.be/5g0x2xv3aHU?t=3155">this</a> to better understand the potential of HTML & CSS</td>
+        <td>Coding a simple data visualization with HTML & CSS</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Sep 1</td>
-        <td></td>
-        <td></td>
+        <td>Pick a datavis you saw recently</td>
+        <td>Analyzing examples & discussing improvements</td>
     </tr>
 </table>
 
 ##### Assignment: 🔍 Analysis 
 ```
-Pick a …. Submit the following:
+Pick a data visualization you saw recently. It could be in:
 
-• 📱 Screen capture or recording
+• A news article (like a line chart)
+• A game (like a score indicator)
+• An app (like health metrics)
+• Or anywhere else (like an installation in a science museum)
+
+Submit the following:
+
+• 📱 Screen capture, photos or recording
 • URL (https://example.com)
-• …
-• …
-• …
+• What is its goal?
+• Why did you pick it?
+• How could it be improved?
 
 Due Sep 6, via Blackboard.
 ```
