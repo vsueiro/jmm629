@@ -4,6 +4,8 @@ This is the main document for the JMM 429/629 course at University of Miami, Fal
 
 🗓 Classes on Tuesdays and Thursdays, from `3:30` to `4:45 pm`.
 
+Last updated on Aug 17, 2022.
+
 ## About the Course
 
 This course is a seminar designed to introduce interactive data visualization concepts in a web environment. Students will be introduced to code libraries which assist in this task, best practices for interactivity and data visualization. The course will also briefly cover working with data (i.e., how to find sources, cleaning and preparing data for visualizations, etc).
@@ -38,7 +40,7 @@ We will not learn everything at once. Instead, this 16-week course is split into
 
 ![Weekly gantt chart shows 16 weeks of class, divided into 5 steps: “Introduction”, “First project, “Second project, “Third project, and “Looking ahead. It resembles 2D platform games by indicading a 🐥 character needs to progress to reach a 🔭 in the end.”](assets/jmm629.png)
 
-After a couple of weeks of introduction, students begin working on projects. There are 3 individual projects (of increasing complexity) – and students will have around 3 weeks to create each one of them, from ideation to coding.
+After a couple of weeks of introduction, students begin working on projects. There are 3 individual projects (of increasing complexity) – and students will have around 3 weeks to create each one of them, from idea to coding.
 
 #### Presentation week
 
@@ -46,11 +48,13 @@ At the end of each project step, we have **presentation week** – imagine this 
 
 ![Character with microphone](assets/presentation-week.png)
 
-On presentation week, both classes of that week will be dedicated to presentation and discussion of projects. Half of the students present on … and half on …. Each student has about 5 minutes to present their project and get feedback.
+On presentation week, both classes of that week will be dedicated to presentation and discussion of projects. Half of the students present on Tuesday and half on Thursday. Each student has about 5 minutes to present their project and get feedback.
 
 After the presentation, students are free to adjust the project (based on that feedback) and submit it for grading (prior to the beginning of the first class of the following week).
 
 ### Course Content
+
+The following tables briefly describe what we will be doing during class (“Content”) and what you are expected to do before each class (“Preparation”).
 
 #### Introduction
 ![Chart shows a step with 2 weeks](assets/part-0.png)
@@ -68,7 +72,7 @@ After the presentation, students are free to adjust the project (based on that f
         <td>Tue</td>
         <td>Aug 23</td>
         <td></td>
-        <td></td>
+        <td>Discussing course goals, topics, tools, timeline & grading</td>
     </tr>
     <tr>
         <td>Thu</td>
@@ -120,7 +124,11 @@ Due Sep 6, via Blackboard.
         <td>Tue</td>
         <td>Sep 6</td>
         <td></td>
-        <td></td>
+        <td>
+            Presenting project goals, deliveries and due dates
+            <br><br>
+            …
+        </td>
     </tr>
     <tr>
         <td>Thu</td>
@@ -132,40 +140,40 @@ Due Sep 6, via Blackboard.
         <td rowspan=2>4</td>
         <td>Tue</td>
         <td>Sep 13</td>
-        <td></td>
-        <td></td>
+        <td>Plan your project</td>
+        <td>Translating your idea into code</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Sep 15</td>
         <td></td>
-        <td></td>
+        <td>Translating your idea into code</td>
     </tr>
     <tr>
         <td rowspan=2>5</td>
         <td>Tue</td>
         <td>Sep 20</td>
-        <td></td>
-        <td></td>
+        <td>Take note of 1-3 tasks you need help with</td>
+        <td>Pairing up with classmates to help each other (instructor may intervene)</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Sep 22</td>
         <td></td>
-        <td></td>
+        <td>Pairing up with classmates to help each other (instructor may intervene)</td>
     </tr>
     <tr>
         <td rowspan=2>6</td>
         <td>Tue</td>
         <td>Sep 27</td>
-        <td></td>
-        <td></td>
+        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td>Presenting your work & getting feedback</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Sep 29</td>
-        <td></td>
-        <td></td>
+        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td>Presenting your work & getting feedback</td>
     </tr>
 </table>
 
@@ -217,7 +225,11 @@ Due Oct 4, via Blackboard.
         <td>Tue</td>
         <td>Oct 4</td>
         <td></td>
-        <td></td>
+        <td>
+            Presenting project goals, deliveries and due dates
+            <br><br>
+            …
+        </td>
     </tr>
     <tr>
         <td>Thu</td>
@@ -229,8 +241,8 @@ Due Oct 4, via Blackboard.
         <td rowspan=2>8</td>
         <td>Tue</td>
         <td>Oct 11</td>
-        <td></td>
-        <td></td>
+        <td>Plan your project</td>
+        <td>Translating your idea into code</td>
     </tr>
     <tr>
         <td>Thu</td>
@@ -242,27 +254,27 @@ Due Oct 4, via Blackboard.
         <td rowspan=2>9</td>
         <td>Tue</td>
         <td>Oct 18</td>
-        <td></td>
-        <td></td>
+        <td>Take note of 1-3 tasks you need help with</td>
+        <td>Pairing up with classmates to help each other (instructor may intervene)</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Oct 20</td>
         <td></td>
-        <td></td>
+        <td>Pairing up with classmates to help each other (instructor may intervene)</td>
     </tr>
     <tr>
         <td rowspan=2>10</td>
         <td>Tue</td>
         <td>Oct 25</td>
-        <td></td>
-        <td></td>
+        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td>Presenting your work & getting feedback</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Oct 27</td>
-        <td></td>
-        <td></td>
+        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td>Presenting your work & getting feedback</td>
     </tr>
 </table>
 
@@ -312,7 +324,11 @@ Due Nov 1, via Blackboard.
         <td rowspan=2>11</td>
         <td>Tue</td>
         <td>Nov 1</td>
-        <td></td>
+        <td>
+            Presenting project goals, deliveries and due dates
+            <br><br>
+            …
+        </td>
         <td></td>
     </tr>
     <tr>
@@ -325,34 +341,34 @@ Due Nov 1, via Blackboard.
         <td rowspan=2>12</td>
         <td>Tue</td>
         <td>Nov 8</td>
-        <td></td>
-        <td></td>
+        <td>Plan your project</td>
+        <td>Translating your idea into code</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Nov 10</td>
         <td></td>
-        <td></td>
+        <td>Translating your idea into code</td>
     </tr>
     <tr>
         <td rowspan=2>13</td>
         <td>Tue</td>
         <td>Nov 15</td>
-        <td></td>
-        <td></td>
+        <td>Take note of 1-3 tasks you need help with</td>
+        <td>Pairing up with classmates to help each other (instructor may intervene)</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Nov 17</td>
         <td></td>
-        <td></td>
+        <td>Pairing up with classmates to help each other (instructor may intervene)</td>
     </tr>
     <tr>
         <td rowspan=2>14</td>
         <td>Tue</td>
         <td>Nov 22</td>
-        <td></td>
-        <td></td>
+        <td>Submit a question for online (Zoom) session with instructor</td>
+        <td>Answering most common questions from students (Zoom)</td>
     </tr>
     <tr>
         <td>Thu</td>
@@ -364,14 +380,14 @@ Due Nov 1, via Blackboard.
         <td rowspan=2>15</td>
         <td>Tue</td>
         <td>Nov 29</td>
-        <td></td>
-        <td></td>
+        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td>Presenting your work & getting feedback</td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Dec 1</td>
-        <td></td>
-        <td></td>
+        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td>Presenting your work & getting feedback</td>
     </tr>
 </table>
 
@@ -422,7 +438,7 @@ Due Dec 6, via Blackboard.
         <td>Tue</td>
         <td>Dec 6</td>
         <td></td>
-        <td></td>
+        <td>Discussing the future of datavis – and paths we can take</td>
     </tr>
     <tr>
         <td>Thu</td>
@@ -441,7 +457,8 @@ Due Dec 14, via Blackboard.
 
 ## Grading
 
-I reserve the right to adjust the final grade according to class participation, attendance, overall quality of work, etc.
+I reserve the right to adjust the final grade according to class participation, attendance, overall
+quality of work, etc.
 
 ### Grading Breakdown
 
@@ -521,26 +538,44 @@ F | ≥ 0
 
 ## Office Hours
 
-TBA
+Students may schedule individual sessions with the instructor. A Calendly link will be made available with specific time slots for online (Zoom) meetings.
 
 ## Policies
 
 ### Religious Holy Day Policy
 
-It is your responsibility to let me know when you’ll be absent for religious holy days at the start of term. You will still be responsible for material covered in class on holy days.
+It is the student’s obligation to provide faculty members with notice of the dates they will be absent for religious holy days. Students are responsible for material covered in class regardless of their presence. The University’s complete Religious Holy Day Policy can be found in the current Bulletin.
 
-### Contact Policy
+### Attendance Policy
+Class attendance is critical to the success of this hands-on class, including class participation in discussions and completion of in-class assignments. All students are responsible for material covered in the classroom regardless of their presence; therefore, check the Blackboard class for announcements and assignment requirements and due dates. Do not email your instructor to find out what has been posted to Blackboard. Late work will not be accepted unless an extension has formally been requested prior to the deadline and approved on a needs only basis. 
 
-All class communications will be via ~~Discord~~ Blackboard; please check daily, especially the night before class. I will use ~~Discord~~ Blackboard to communicate with you in case of cancellations, deadlines, etc. You may email me as needed, but I need at least 24 hours to respond to your email, and I will not read emails after 9 pm and on weekends.
+### Recording Policy
+Students are expressly prohibited from recording any part of this course. If any recordings are available to students they are intended to supplement the classroom experience. Students are expected to follow appropriate University policies and maintain the security of passwords used to access recorded lectures. Recordings may not be reproduced, shared with those not in the class, or uploaded to other online environments.
 
-### Honor Code
+If the instructor or a University of Miami office plans any other uses for the recordings, beyond this class, students identifiable in the recordings will be notified to request consent prior to such use. Instructors are the copyright owner of the courseware; individual recordings of the materials on Blackboard or Microsoft Teams and/or of the virtual sessions are not allowed; and that such materials cannot be shared outside the physical or virtual classroom environment. 
 
-You are expected to abide by the University of Miami Honor Code. The Honor Code aims to protect the University’s academic integrity by encouraging consistent ethical behavior in assigned coursework. Academic dishonesty of any kind, for whatever reason, will not be tolerated.
+### Honor Code & Plagiarism Statements
 
-There is an expectation that if you are attending a class live, you’ll be an active participant; the university believes an effective way of achieving this is by sharing your video feed during the class.
+Students enrolled in this course are expected to abide by the University of Miami Honor Code. The purpose of the Honor Code is to protect the academic integrity of the University by encouraging consistent ethical behavior in assigned coursework. Academic dishonesty of any kind, for whatever reason, will not be tolerated. 
 
-The University has provided the following language related to lecture recordings:
+No honest student wants to be guilty of the intellectual crime of plagiarism, even unintentionally. Therefore, we provide you with these guidelines so that you don’t accidentally fall into the plagiarism trap. 
 
-Students are expressly prohibited from recording any part of this course. Meetings of this course might be recorded by the University. Any recordings will be available to students registered for this class as they are intended to supplement the classroom experience.
+Plagiarism is the taking of someone else’s words, work, or ideas, and passing them off as a product of your own efforts. Plagiarism may occur when a person fails to place quotation marks around someone else’s exact words, directly rephrasing or paraphrasing someone else’s words while still following the general form of the original, and/or failing to issue the proper citation to one’s source material. 
 
-Students are expected to follow appropriate University policies and maintain the security of passwords used to access recorded lectures. Recordings may not be reproduced, shared with those not in the class, or uploaded to other online environments. If the instructor or a University of Miami office plans any other uses for the recordings, beyond this class, students identifiable in the recordings will be notified to request consent prior to such use.
+In student papers, plagiarism is often due to: 
+
+- Turning in someone else’s paper as one’s own 
+- Using another person’s data or ideas without acknowledgment 
+- Failing to cite a written source (printed or internet) of information that you used to collect data or ideas 
+- Copying an author’s exact words and putting them in the paper without quotation marks 
+- Rephrasing an author’s words and failing to cite the source 
+- Copying, rephrasing, or quoting an author’s exact words and citing a source other than where the material was obtained.
+- Using wording that is very similar to that of the original source, but passing it off as one’s own. 
+
+The last item is probably the most common problem in student writing. It is still plagiarism if students use an author’s key phrases or sentences in a way that implies they are their own, even if they cite the source. 
+
+### Well-Being Resources & Support
+
+As you complete your coursework, consider how you can maintain your health and well-being as a top priority. To help you become familiar with the many programs and services available on campus, review the information collected on the Student Well-Being and Resiliency website available at [miami.edu/well-being](https://miami.edu/well-being). 
+
+Please reach out to me or any of the resources listed on the site if you need assistance or support throughout the semester. 
