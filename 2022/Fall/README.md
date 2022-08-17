@@ -205,11 +205,11 @@ Due Sep 6, via Blackboard.
 
 ##### Assignment: ✏️ Planning
 ```
-Plan your …:
+Plan your project:
 
-• …?
-• …?
-• …?
+• What is its purpose?
+• What is its content?
+• What could it look like?
 
 Due Sep 13, via Blackboard.
 ```
@@ -233,7 +233,6 @@ Submit your project:
 
 Due Oct 4, via Blackboard.
 ```
-
 
 #### Second Project: Datavis for Analyzing Data
 ![Chart shows a step with 3 weeks of class plus 1 presentation week 🎤](assets/part-2.png)
@@ -308,9 +307,9 @@ Due Oct 4, via Blackboard.
 ```
 Plan your project:
 
-• …?
-• …?
-• …?
+• What is its purpose?
+• What is its content?
+• What could it look like?
 
 Due Oct 11, via Blackboard.
 ```
@@ -422,9 +421,9 @@ Due Nov 1, via Blackboard.
 ```
 Plan your project:
 
-• …?
-• …?
-• …?
+• What is its purpose?
+• What is its content?
+• What could it look like?
 
 Due Nov 8, via Blackboard.
 ```
