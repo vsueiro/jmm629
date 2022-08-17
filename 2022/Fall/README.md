@@ -14,23 +14,28 @@ This course is a seminar designed to introduce interactive data visualization co
 
 By the end of this course, students should be able to:
 
-- …
-- …
-- …
+- Design and code their own custom data visualizations
+- Identify (and avoid) misleading statistics and charts
+- Apply data visualization principles to their own fields
 
 ### Course Topics
 
-In order to reach the desired goals, students will learn …:
+In order to reach the desired goals, students will learn how data visualization may be employed during all phases of a project:
 
-- …
-- …
-- …
+- Collecting (using visuals to gather data)
+- Analyzing (using visuals to find insights)
+- Communicating (using visuals to tell stories)
+
+Since this is a practical course focused on a web environment, we will also learn about the following core technologies:
+
+- 🧱 [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) (to define structure and content)
+- 🎨 [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) (to apply visual styles)
+- ✨ [JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) (to turn data into [visual variables](https://en.wikipedia.org/wiki/Visual_variable))
 
 This course also covers tools that help us organize and scale up our projects:
 
-- …
-- …
-- …
+- [D3](https://d3js.org/) (to easily create scales)
+- [MapBox](https://www.mapbox.com/mapbox-studio/) (to easily create maps)
 
 All tools are free (or provide a free version).
 
