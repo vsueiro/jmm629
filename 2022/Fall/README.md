@@ -47,13 +47,13 @@ We will not learn everything at once. Instead, this 16-week course is split into
 
 After a couple of weeks of introduction, students begin working on projects. There are 3 individual projects (of increasing complexity) – and students will have around 3 weeks to create each one of them, from idea to coding.
 
-#### Presentation week
+#### Presentation day
 
-At the end of each project step, we have **presentation week** – imagine this to be you 3× during the semester:
+At the end of each project step, we have **presentation day** – imagine this to be you 3× during the semester:
 
-![Character with microphone](assets/presentation-week.png)
+![Character with microphone](assets/presentation-day.png)
 
-On presentation week, both classes of that week will be dedicated to presentation and discussion of projects. Half of the students present on Tuesday and half on Thursday. Each student has about 5 minutes to present their project and get feedback.
+On presentation day, the class will be dedicated to presentation and discussion of projects. Each student has about 10 minutes to present their project and get feedback.
 
 After the presentation, students are free to adjust the project (based on that feedback) and submit it for grading (prior to the beginning of the first class of the following week).
 
@@ -133,7 +133,7 @@ Due Sep 6, via Blackboard.
 ```
 
 #### First Project: Datavis for Collecting Data
-![Chart shows a step with 3 weeks of class plus 1 presentation week 🎤](assets/part-1.png)
+![Chart shows a step with 3.5 weeks of class plus 1 presentation day 🎤](assets/part-1.png)
 
 <table>
     <tr>
@@ -192,13 +192,13 @@ Due Sep 6, via Blackboard.
         <td rowspan=2>6</td>
         <td>Tue</td>
         <td>Sep 27</td>
-        <td>Sign up for a presentation slot (½ of the students)</td>
-        <td>Presenting your work & getting feedback</td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Sep 29</td>
-        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td></td>
         <td>Presenting your work & getting feedback</td>
     </tr>
 </table>
@@ -218,7 +218,7 @@ Due Sep 13, via Blackboard.
 ```
 Present your project:
 
-• Up to 5 minutes
+• Up to 10 minutes
 
 Due Sep 27 or 29, during class.
 ```
@@ -235,7 +235,7 @@ Due Oct 4, via Blackboard.
 ```
 
 #### Second Project: Datavis for Analyzing Data
-![Chart shows a step with 3 weeks of class plus 1 presentation week 🎤](assets/part-2.png)
+![Chart shows a step with 3.5 weeks of class plus 1 presentation day 🎤](assets/part-2.png)
 
 <table>
     <tr>
@@ -292,13 +292,13 @@ Due Oct 4, via Blackboard.
         <td rowspan=2>10</td>
         <td>Tue</td>
         <td>Oct 25</td>
-        <td>Sign up for a presentation slot (½ of the students)</td>
-        <td>Presenting your work & getting feedback</td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Oct 27</td>
-        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td></td>
         <td>Presenting your work & getting feedback</td>
     </tr>
 </table>
@@ -318,7 +318,7 @@ Due Oct 11, via Blackboard.
 ```
 Present your project:
 
-• Up to 5 minutes
+• Up to 10 minutes
 
 Due Oct 25 or 27, during class.
 ```
@@ -335,7 +335,7 @@ Due Nov 1, via Blackboard.
 ```
 
 #### Third Project: Datavis for Communicating Data
-![Chart shows a step with 4 weeks of class plus 1 presentation week 🎤](assets/part-3.png)
+![Chart shows a step with 4.5 weeks of class plus 1 presentation day 🎤](assets/part-3.png)
 
 <table>
     <tr>
@@ -406,13 +406,13 @@ Due Nov 1, via Blackboard.
         <td rowspan=2>15</td>
         <td>Tue</td>
         <td>Nov 29</td>
-        <td>Sign up for a presentation slot (½ of the students)</td>
-        <td>Presenting your work & getting feedback</td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Thu</td>
         <td>Dec 1</td>
-        <td>Sign up for a presentation slot (½ of the students)</td>
+        <td></td>
         <td>Presenting your work & getting feedback</td>
     </tr>
 </table>
@@ -432,7 +432,7 @@ Due Nov 8, via Blackboard.
 ```
 Present your project:
 
-• Up to 5 minutes
+• Up to 10 minutes
 
 Due Nov 29 or Dec 1, during class.
 ```
