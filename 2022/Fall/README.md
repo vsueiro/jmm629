@@ -132,7 +132,9 @@ Submit the following:
 Due Sep 6, via Blackboard.
 ```
 
-#### First Project: Datavis for Collecting Data
+#### First Project: Input Visualization
+*Datavis for collecting data*
+
 ![Chart shows a step with 3.5 weeks of class plus 1 presentation day 🎤](assets/part-1.png)
 
 <table>
@@ -234,7 +236,9 @@ Submit your project:
 Due Oct 4, via Blackboard.
 ```
 
-#### Second Project: Datavis for Analyzing Data
+#### Second Project: Exploratory Visualization
+*Datavis for analyzing data*
+
 ![Chart shows a step with 3.5 weeks of class plus 1 presentation day 🎤](assets/part-2.png)
 
 <table>
@@ -334,7 +338,9 @@ Submit your project:
 Due Nov 1, via Blackboard.
 ```
 
-#### Third Project: Datavis for Communicating Data
+#### Third Project: Explanatory Visualization
+*Datavis for communicating data*
+
 ![Chart shows a step with 4.5 weeks of class plus 1 presentation day 🎤](assets/part-3.png)
 
 <table>
