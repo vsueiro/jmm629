@@ -222,7 +222,7 @@ Present your project:
 
 • Up to 10 minutes
 
-Due Sep 27 or 29, during class.
+Due Sep 29, during class.
 ```
 
 ##### Assignment: 💻 Submission
@@ -324,7 +324,7 @@ Present your project:
 
 • Up to 10 minutes
 
-Due Oct 25 or 27, during class.
+Due Oct 27, during class.
 ```
 
 ##### Assignment: 💻 Submission
@@ -440,7 +440,7 @@ Present your project:
 
 • Up to 10 minutes
 
-Due Nov 29 or Dec 1, during class.
+Due Dec 1, during class.
 ```
 
 ##### Assignment: 💻 Submission
