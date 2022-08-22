@@ -118,6 +118,7 @@ Pick a data visualization you saw recently. It could be in:
 
 • A news article (like a line chart)
 • A game (like a score indicator)
+• A video (like a social media post)
 • An app (like health metrics)
 • Or anywhere else (like an installation in a science museum)
 
