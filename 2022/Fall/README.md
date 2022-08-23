@@ -254,7 +254,9 @@ Due Oct 4, via Blackboard.
         <td rowspan=2>7</td>
         <td>Tue</td>
         <td>Oct 4</td>
-        <td></td>
+        <td>
+            Read <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">this</a> to reflect on the value of interaction for end users (use <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">this</a> to translate it)
+        </td>
         <td>
             Presenting project goals, deliveries and due dates
             <br><br>
@@ -264,7 +266,9 @@ Due Oct 4, via Blackboard.
     <tr>
         <td>Thu</td>
         <td>Oct 6</td>
-        <td></td>
+        <td>
+            Watch <a href="https://coursera.org/lecture/dataviz-design/what-is-exploratory-and-explanatory-analysis-QeFi3">this</a> to learn about exploratory analysis for specialized users
+        </td>
         <td>Coding a histogram and a scatter plot</td>
     </tr>
     <tr>
