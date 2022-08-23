@@ -83,10 +83,6 @@ The following tables briefly describe what we will be doing during class (“Con
         <td>Thu</td>
         <td>Aug 25</td>
         <td>
-            <!--
-            Watch <a href="https://youtu.be/YoXxevp1WRQ?t=313">this</a>, from <code>5:13</code> to <code>41:54</code>, to learn how computers cleverly represent numbers, text, color, images & even emoji
-            <br><br>
-            -->
             Watch <a href="https://www.youtube.com/watch?v=3L8SzEtfQKE">this</a> for a practical introduction to visual variables
         </td>
         <td>
@@ -98,6 +94,8 @@ The following tables briefly describe what we will be doing during class (“Con
         <td>Tue</td>
         <td>Aug 30</td>
         <td>
+            Watch <a href="https://youtu.be/YoXxevp1WRQ?t=313">this</a>, from <code>5:13</code> to <code>41:54</code>, to learn how computers cleverly represent numbers, text, color, images & even emoji
+            <br><br>
             Watch <a href="https://youtu.be/5g0x2xv3aHU?t=3155">this</a> to better understand the potential of HTML & CSS
             <br><br>
             Sign up for <a href="https://codesandbox.io/">CodeSandbox</a>
