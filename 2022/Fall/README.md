@@ -130,7 +130,7 @@ Submit the following:
 • Why did you pick it?
 • How could it be improved?
 
-Due Sep 6, via Blackboard.
+Due Sep 6, via Google Forms (exceptionally).
 ```
 
 #### First Project: Input Visualization
