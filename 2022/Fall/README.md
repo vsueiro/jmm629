@@ -196,7 +196,7 @@ Due Sep 6, via Google Forms (exceptionally).
         <td>Tue</td>
         <td>Sep 27</td>
         <td></td>
-        <td></td>
+        <td>Debugging & refining session with instructor</td>
     </tr>
     <tr>
         <td>Thu</td>
@@ -302,7 +302,7 @@ Due Oct 4, via Blackboard.
         <td>Tue</td>
         <td>Oct 25</td>
         <td></td>
-        <td></td>
+        <td>Debugging & refining session with instructor</td>
     </tr>
     <tr>
         <td>Thu</td>
@@ -419,7 +419,7 @@ Due Nov 1, via Blackboard.
         <td>Tue</td>
         <td>Nov 29</td>
         <td></td>
-        <td></td>
+        <td>Debugging & refining session with instructor</td>
     </tr>
     <tr>
         <td>Thu</td>
