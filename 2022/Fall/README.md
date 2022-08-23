@@ -357,6 +357,7 @@ Due Nov 1, via Blackboard.
         <td>Tue</td>
         <td>Nov 1</td>
         <td>
+            Watch or read <a href="https://ncase.me/StanfordTalk/">this</a> to learn “how to explain things real good”
         </td>
         <td>
             Presenting project goals, deliveries and due dates
@@ -367,7 +368,7 @@ Due Nov 1, via Blackboard.
     <tr>
         <td>Thu</td>
         <td>Nov 3</td>
-        <td></td>
+        <td>Watch or read <a href="https://www.gurmanbhatia.com/talk/2021/03/09/stories-structure.html">this</a> to learn common structures for visual narratives</td>
         <td>Coding a step-by-step visual narrative</td>
     </tr>
     <tr>
