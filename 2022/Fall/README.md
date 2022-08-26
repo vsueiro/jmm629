@@ -4,6 +4,10 @@ This is the main document for the JMM 429/629 course at University of Miami, Fal
 
 🗓 Classes on Tuesdays and Thursdays, from `3:30` to `4:45 pm`.
 
+Lecturer | Email
+---|---
+Vinicius Sueiro | hi@vsueiro.com
+
 Last updated on Aug 26, 2022. This document is subject to change.
 
 ## About the Course
