@@ -86,7 +86,7 @@ The following tables briefly describe what we will be doing during class (“Con
             Watch <a href="https://www.youtube.com/watch?v=3L8SzEtfQKE">this</a> for a practical introduction to visual variables
         </td>
         <td>
-            Creating an input visualization & demystifying basic statistic concepts
+            Disussing input visualizations
         </td>
     </tr>
     <tr>
@@ -259,6 +259,8 @@ Due Oct 4, via Blackboard.
             Presenting project goals, deliveries and due dates
             <br><br>
             Discussing the value of graphics during exploratory analysis
+            <br><br>
+            Demystifying basic statistic concepts
         </td>
     </tr>
     <tr>
