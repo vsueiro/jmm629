@@ -108,7 +108,9 @@ The following tables briefly describe what we will be doing during class (“Con
             Sign up for <a href="https://codesandbox.io/">CodeSandbox</a>
         </td>
         <td>Coding a simple data visualization with HTML & CSS</td>
-        <td></td>
+        <td>
+            <a href="https://codesandbox.io/s/my-first-chart-u8h2cl">Sandbox</a>
+        </td>
     </tr>
     <tr>
         <td>Sep 1</td>
