@@ -94,7 +94,11 @@ The following tables briefly describe what we will be doing during class (“Con
         <td>
             Disussing input visualizations
         </td>
-        <td></td>
+        <td>
+            <a href="https://www.figma.com/proto/xOPsQpAm5CJOYifaVCGhY7/JMM-629-(Fall-2022)?node-id=0%3A1&scaling=contain&page-id=0%3A1">
+                Slides
+            </a>
+        </td>
     </tr>
     <tr>
         <td rowspan=2>2</td>
