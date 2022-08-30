@@ -71,20 +71,22 @@ The following tables briefly describe what we will be doing during class (“Con
 <table>
     <tr>
         <th>Week</th>
-        <th>Weekday</th>
+        <!-- <th>Weekday</th> -->
         <th>Date</th>
         <th>Preparation</th>
         <th>Content</th>
+        <th>Materials</th>
     </tr>
     <tr>
         <td rowspan=2>1</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Aug 23</td>
         <td></td>
         <td>Discussing course goals, topics, tools, timeline & grading</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Aug 25</td>
         <td>
             Watch <a href="https://www.youtube.com/watch?v=3L8SzEtfQKE">this</a> for a practical introduction to visual variables
@@ -92,10 +94,11 @@ The following tables briefly describe what we will be doing during class (“Con
         <td>
             Disussing input visualizations
         </td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>2</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Aug 30</td>
         <td>
             Watch <a href="https://youtu.be/YoXxevp1WRQ?t=313">this</a>, from <code>5:13</code> to <code>41:54</code>, to learn how computers cleverly represent numbers, text, color, images & even emoji
@@ -105,12 +108,14 @@ The following tables briefly describe what we will be doing during class (“Con
             Sign up for <a href="https://codesandbox.io/">CodeSandbox</a>
         </td>
         <td>Coding a simple data visualization with HTML & CSS</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Sep 1</td>
         <td>Pick a datavis you saw recently</td>
         <td>Analyzing examples & discussing improvements</td>
+        <td></td>
     </tr>
 </table>
 
@@ -143,14 +148,15 @@ Due Sep 6, via Google Forms (exceptionally).
 <table>
     <tr>
         <th>Week</th>
-        <th>Weekday</th>
+        <!-- <th>Weekday</th> -->
         <th>Date</th>
         <th>Preparation</th>
         <th>Content</th>
+        <th>Materials</th>
     </tr>
     <tr>
         <td rowspan=2>3</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Sep 6</td>
         <td>
             Watch <a href="https://www.youtube.com/watch?v=qfF4Pj3XJKA">this</a> or read <a href="http://hdl.handle.net/1880/114011">this</a> to learn more about “input visualizations”
@@ -160,51 +166,59 @@ Due Sep 6, via Google Forms (exceptionally).
             <br><br>
             Discussing input visualization examples
         </td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Sep 8</td>
         <td>Watch <a href="https://youtu.be/5g0x2xv3aHU?t=6774">this</a>, from <code>1:50:50</code> to <code>2:25:40</code>, to learn the basics of JavaScript</td>
         <td>Coding a simple input visualization with HTML, CSS & JS</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>4</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Sep 13</td>
         <td>Plan your project</td>
         <td>Translating your idea into code</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Sep 15</td>
         <td></td>
         <td>Translating your idea into code</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>5</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Sep 20</td>
         <td>Take note of 1-3 tasks you need help with</td>
         <td>Pairing up with classmates to help each other (instructor may intervene)</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Sep 22</td>
         <td></td>
         <td>Pairing up with classmates to help each other (instructor may intervene)</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>6</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Sep 27</td>
         <td></td>
         <td>Debugging & refining session with instructor</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Sep 29</td>
         <td></td>
         <td>Presenting your work & getting feedback</td>
+        <td></td>
     </tr>
 </table>
 
@@ -247,14 +261,15 @@ Due Oct 4, via Blackboard.
 <table>
     <tr>
         <th>Week</th>
-        <th>Weekday</th>
+        <!-- <th>Weekday</th> -->
         <th>Date</th>
         <th>Preparation</th>
         <th>Content</th>
+        <th>Materials</th>
     </tr>
     <tr>
         <td rowspan=2>7</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Oct 4</td>
         <td>
             Read <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">this</a> to reflect on the value of interaction for end users (use <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">this</a> to translate it)
@@ -266,53 +281,61 @@ Due Oct 4, via Blackboard.
             <br><br>
             Demystifying basic statistic concepts
         </td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Oct 6</td>
         <td>
             Watch <a href="https://coursera.org/lecture/dataviz-design/what-is-exploratory-and-explanatory-analysis-QeFi3">this</a> to learn about exploratory analysis for specialized users
         </td>
         <td>Coding a histogram and a scatter plot</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>8</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Oct 11</td>
         <td>Plan your project</td>
         <td>Translating your idea into code</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Oct 13</td>
         <td></td>
         <td>🚫 No class</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>9</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Oct 18</td>
         <td>Take note of 1-3 tasks you need help with</td>
         <td>Pairing up with classmates to help each other (instructor may intervene)</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Oct 20</td>
         <td></td>
         <td>Pairing up with classmates to help each other (instructor may intervene)</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>10</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Oct 25</td>
         <td></td>
         <td>Debugging & refining session with instructor</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Oct 27</td>
         <td></td>
         <td>Presenting your work & getting feedback</td>
+        <td></td>
     </tr>
 </table>
 
@@ -355,14 +378,15 @@ Due Nov 1, via Blackboard.
 <table>
     <tr>
         <th>Week</th>
-        <th>Weekday</th>
+        <!-- <th>Weekday</th> -->
         <th>Date</th>
         <th>Preparation</th>
         <th>Content</th>
+        <th>Materials</th>
     </tr>
     <tr>
         <td rowspan=2>11</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Nov 1</td>
         <td>
             Watch or read <a href="https://ncase.me/StanfordTalk/">this</a> to learn “how to explain things real good”
@@ -372,64 +396,74 @@ Due Nov 1, via Blackboard.
             <br><br>
             Discussing exploratory & explanatory approaches
         </td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Nov 3</td>
         <td>Watch or read <a href="https://www.gurmanbhatia.com/talk/2021/03/09/stories-structure.html">this</a> to learn common structures for visual narratives</td>
         <td>Coding a step-by-step visual narrative</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>12</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Nov 8</td>
         <td>Plan your project</td>
         <td>Translating your idea into code</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Nov 10</td>
         <td></td>
         <td>Translating your idea into code</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>13</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Nov 15</td>
         <td>Take note of 1-3 tasks you need help with</td>
         <td>Pairing up with classmates to help each other (instructor may intervene)</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Nov 17</td>
         <td></td>
         <td>Pairing up with classmates to help each other (instructor may intervene)</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>14</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Nov 22</td>
         <td>Submit a question for online (Zoom) session with instructor</td>
         <td>Answering most common questions from students (Zoom)</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Nov 24</td>
         <td></td>
         <td>🚫 No class</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan=2>15</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Nov 29</td>
         <td></td>
         <td>Debugging & refining session with instructor</td>
+        <td></td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Dec 1</td>
         <td></td>
         <td>Presenting your work & getting feedback</td>
+        <td></td>
     </tr>
 </table>
 
@@ -470,20 +504,20 @@ Due Dec 6, via Blackboard.
 <table>
     <tr>
         <th>Week</th>
-        <th>Weekday</th>
+        <!-- <th>Weekday</th> -->
         <th>Date</th>
         <th>Preparation</th>
         <th>Content</th>
     </tr>
     <tr>
         <td rowspan=2>16</td>
-        <td>Tue</td>
+        <!-- <td>Tue</td> -->
         <td>Dec 6</td>
         <td></td>
         <td>Discussing the future of infographics and data visualization – and paths we can take</td>
     </tr>
     <tr>
-        <td>Thu</td>
+        <!-- <td>Thu</td> -->
         <td>Dec 8</td>
         <td></td>
         <td>🚫 No class</td>
