@@ -92,7 +92,7 @@ The following tables briefly describe what we will be doing during class (“Con
             Watch <a href="https://www.youtube.com/watch?v=3L8SzEtfQKE">this</a> for a practical introduction to visual variables
         </td>
         <td>
-            Disussing input visualizations
+            Discussing input visualizations
         </td>
         <td>
             <a href="https://www.figma.com/proto/xOPsQpAm5CJOYifaVCGhY7/JMM-629-(Fall-2022)?node-id=0%3A1&scaling=contain&page-id=0%3A1">
