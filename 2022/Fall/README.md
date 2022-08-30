@@ -477,17 +477,20 @@ Due Dec 6, via Blackboard.
         <th>Date</th>
         <th>Preparation</th>
         <th>Content</th>
+        <th>Materials</th>
     </tr>
     <tr>
         <td rowspan=2>16</td>
         <td>Dec 6</td>
         <td></td>
         <td>Discussing the future of infographics and data visualization – and paths we can take</td>
+        <td></td>
     </tr>
     <tr>
         <td>Dec 8</td>
         <td></td>
         <td>🚫 No class</td>
+        <td></td>
     </tr>
 </table>
 
