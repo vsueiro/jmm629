@@ -114,8 +114,8 @@ The following tables briefly describe what we will be doing during class (“Con
     </tr>
     <tr>
         <td>Sep 1</td>
-        <td>Pick a datavis you saw recently</td>
-        <td>Analyzing examples & discussing improvements</td>
+        <td></td>
+        <td>Improving our chart with CSS & JS</td>
         <td></td>
     </tr>
 </table>
