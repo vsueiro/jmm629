@@ -165,14 +165,14 @@ Due Sep 6, via Google Forms (exceptionally).
         <td>
             Presenting project goals, deliveries and due dates
             <br><br>
-            Discussing input visualization examples
+            Coding a simple input visualization with HTML, CSS & JS
         </td>
         <td></td>
     </tr>
     <tr>
         <td>Sep 8</td>
         <td>Watch <a href="https://youtu.be/5g0x2xv3aHU?t=6774">this</a>, from <code>1:50:50</code> to <code>2:25:40</code>, to learn the basics of JavaScript</td>
-        <td>Coding a simple input visualization with HTML, CSS & JS</td>
+        <td>Refining a simple input visualization with HTML, CSS & JS</td>
         <td></td>
     </tr>
     <tr>
