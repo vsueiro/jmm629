@@ -116,7 +116,9 @@ The following tables briefly describe what we will be doing during class (“Con
         <td>Sep 1</td>
         <td></td>
         <td>Improving our chart with CSS & JS</td>
-        <td>To be recorded</td>
+        <td>
+            <a href="https://codesandbox.io/s/my-first-chart-with-js-lrbqqh?file=/index.html">Sandbox</a>
+        </td>
     </tr>
 </table>
 
