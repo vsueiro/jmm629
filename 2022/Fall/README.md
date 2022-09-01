@@ -141,6 +141,8 @@ Submit the following:
 Due Sep 6, via Google Forms (exceptionally).
 ```
 
+[Answer the Google Form ↗](https://forms.gle/wdS89NrTichbKQZe7)
+
 #### First Project: Input Visualization
 *Datavis for collecting data*
 
