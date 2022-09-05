@@ -169,12 +169,18 @@ Due Sep 6, via Google Forms (exceptionally).
             <br><br>
             Coding a simple input visualization with HTML, CSS & JS
         </td>
-        <td></td>
+        <td>
+        <a href="https://codesandbox.io/s/input-visualization-slider-1uq5om?file=/index.html">Sandbox (pre-made)</a>
+        </td>
     </tr>
     <tr>
         <td>Sep 8</td>
-        <td>Watch <a href="https://youtu.be/5g0x2xv3aHU?t=6774">this</a>, from <code>1:50:50</code> to <code>2:25:40</code>, to learn the basics of JavaScript</td>
-        <td>Refining a simple input visualization with HTML, CSS & JS</td>
+        <td>
+            Watch <a href="https://youtu.be/5g0x2xv3aHU?t=49">this</a>, until <code>52:35</code> to learn how computers also like to text one another (optional)
+            <br><br>
+            Watch <a href="https://youtu.be/5g0x2xv3aHU?t=6774">this</a>, from <code>1:50:50</code> to <code>2:25:40</code>, to learn the basics of JavaScript
+        </td>
+        <td>Storing data from an input visualization to a Google Sheets</td>
         <td></td>
     </tr>
     <tr>
