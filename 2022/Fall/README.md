@@ -170,7 +170,10 @@ Due Sep 6, via Google Forms (exceptionally).
             Coding a simple input visualization with HTML, CSS & JS
         </td>
         <td>
-        <a href="https://codesandbox.io/s/input-visualization-slider-1uq5om?file=/index.html">Sandbox (pre-made)</a>
+            <a href="https://codesandbox.io/s/input-visualization-slider-1uq5om?file=/index.html">Sandbox (pre-made)</a>
+            <br><br>
+            <a href="https://codesandbox.io/s/input-visualization-slider-8goenb?file=/index.html">Sandbox (live-coded)
+            </a>
         </td>
     </tr>
     <tr>
