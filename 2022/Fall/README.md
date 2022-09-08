@@ -183,7 +183,7 @@ Due Sep 6, via Google Forms (exceptionally).
             <br><br>
             Watch <a href="https://youtu.be/5g0x2xv3aHU?t=6774">this</a>, from <code>1:50:50</code> to <code>2:25:40</code>, to learn the basics of JavaScript
         </td>
-        <td>Storing data from an input visualization to a Google Sheets<br>(to be recorded 🔴)</td>
+        <td>Storing data from an input visualization to a Google Sheets</td>
         <td></td>
     </tr>
     <tr>
@@ -235,8 +235,10 @@ Plan your project:
 • What is its content?
 • What could it look like?
 
-Due Sep 13, via Blackboard.
+Due Sep 13, via Google Forms.
 ```
+
+[Answer the Google Form ↗](https://forms.gle/7LtQReYLDiMMhqDu6)
 
 ##### Assignment: 🎤 Presentation
 ```
