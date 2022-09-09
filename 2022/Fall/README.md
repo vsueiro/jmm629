@@ -184,7 +184,9 @@ Due Sep 6, via Google Forms (exceptionally).
             Watch <a href="https://youtu.be/5g0x2xv3aHU?t=6774">this</a>, from <code>1:50:50</code> to <code>2:25:40</code>, to learn the basics of JavaScript
         </td>
         <td>Storing data from an input visualization to a Google Sheets</td>
-        <td></td>
+        <td>
+            <a href="https://codesandbox.io/s/input-visualization-slider-8goenb?file=/index.html">Sandbox (live-coded)</a>
+        </td>
     </tr>
     <tr>
         <td rowspan=2>4</td>
