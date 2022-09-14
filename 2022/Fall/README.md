@@ -193,7 +193,9 @@ Due Sep 6, via Google Forms (exceptionally).
         <td>Sep 13</td>
         <td>Plan your project</td>
         <td>Translating your idea into code</td>
-        <td></td>
+        <td>
+            <a href="https://codesandbox.io/s/interactive-grid-5zmyhu">Sandbox</a>
+        </td>
     </tr>
     <tr>
         <td>Sep 15</td>
