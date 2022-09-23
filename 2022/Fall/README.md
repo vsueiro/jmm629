@@ -170,9 +170,9 @@ Due Sep 6, via Google Forms (exceptionally).
             Coding a simple input visualization with HTML, CSS & JS
         </td>
         <td>
-            <a href="https://codesandbox.io/s/input-visualization-slider-1uq5om?file=/index.html">Sandbox (pre-made)</a>
+            <a href="https://codesandbox.io/s/input-visualization-slider-1uq5om?file=/index.html">Sandbox (pre-coded)</a>
             <br><br>
-            <a href="https://codesandbox.io/s/input-visualization-slider-8goenb?file=/index.html">Sandbox (live-coded)
+            <a href="https://codesandbox.io/s/input-visualization-slider-8goenb?file=/index.html">Sandbox
             </a>
         </td>
     </tr>
@@ -185,7 +185,7 @@ Due Sep 6, via Google Forms (exceptionally).
         </td>
         <td>Storing data from an input visualization to a Google Sheets</td>
         <td>
-            <a href="https://codesandbox.io/s/input-visualization-slider-8goenb?file=/index.html">Sandbox (live-coded)</a>
+            <a href="https://codesandbox.io/s/input-visualization-slider-8goenb?file=/index.html">Sandbox</a>
         </td>
     </tr>
     <tr>
@@ -214,7 +214,11 @@ Due Sep 6, via Google Forms (exceptionally).
         <td>Sep 22</td>
         <td></td>
         <td>Pairing up with classmates to help each other (instructor may intervene)</td>
-        <td></td>
+        <td>
+            <a href="https://codesandbox.io/s/drag-and-drop-ci8dwm">
+                Sandbox
+            </a>
+        </td>
     </tr>
     <tr>
         <td rowspan=2>6</td>
@@ -246,9 +250,11 @@ Due Sep 13, via Google Forms.
 
 ##### Assignment: 🎤 Presentation
 ```
-Present your project:
+Present your project (10 min):
 
-• Up to 10 minutes
+• Goals
+• Process
+• Learnings
 
 Due Sep 29, during class.
 ```
@@ -261,7 +267,7 @@ Submit your project:
 • Screen capture or recording
 • Paragraph describing what you would have done differently – and why
 
-Due Oct 4, via Blackboard.
+Due Oct 4, via Google Forms.
 ```
 
 #### Second Project: Exploratory Visualization
@@ -354,9 +360,11 @@ Due Oct 11, via Blackboard.
 
 ##### Assignment: 🎤 Presentation
 ```
-Present your project:
+Present your project (10 min):
 
-• Up to 10 minutes
+• Goals
+• Process
+• Learnings
 
 Due Oct 27, during class.
 ```
@@ -471,9 +479,11 @@ Due Nov 8, via Blackboard.
 
 ##### Assignment: 🎤 Presentation
 ```
-Present your project:
+Present your project (10 min):
 
-• Up to 10 minutes
+• Goals
+• Process
+• Learnings
 
 Due Dec 1, during class.
 ```
