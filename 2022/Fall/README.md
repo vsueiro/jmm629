@@ -287,7 +287,7 @@ Due Oct 4, via Google Forms.
         <td rowspan=2>7</td>
         <td>Oct 4</td>
         <td>
-            Read <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">this</a> to reflect on the value of interaction for end users (use <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">this</a> to translate it)
+            Read <a href="https://medium.com/datavizbr/a-intera%C3%A7%C3%A3o-est%C3%A1-morta-vida-longa-%C3%A0-intera%C3%A7%C3%A3o-f11ace12fc75">this</a> to reflect on the value of interaction for end users (use <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">this</a> to translate it)
         </td>
         <td>
             Presenting project goals, deliveries and due dates
