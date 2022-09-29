@@ -265,10 +265,12 @@ Submit your project:
 
 • URL
 • Screen capture or recording
-• Paragraph describing what you would have done differently – and why
+• Answers to reflective questions about your project
 
 Due Oct 4, via Google Forms.
 ```
+
+[Submit via Google Forms ↗](https://forms.gle/nHUsqgvSSm4sE5dk7)
 
 #### Second Project: Exploratory Visualization
 *Datavis for analyzing data*
@@ -375,7 +377,7 @@ Submit your project:
 
 • URL
 • Screen capture or recording
-• Paragraph describing what you would have done differently – and why
+• Answers to reflective questions about your project
 
 Due Nov 1, via Blackboard.
 ```
@@ -494,7 +496,7 @@ Submit your project:
 
 • URL
 • Screen capture or recording
-• Paragraph describing what you would have done differently – and why
+• Answers to reflective questions about your project
 
 Due Dec 6, via Blackboard.
 ```
