@@ -306,7 +306,9 @@ Due Oct 4, via Google Forms.
             Watch <a href="https://coursera.org/lecture/dataviz-design/what-is-exploratory-and-explanatory-analysis-QeFi3">this</a> to learn about exploratory analysis for specialized users
         </td>
         <td>Coding a ~~histogram and a scatter plot~~ a simple filter</td>
-        <td></td>
+        <td>
+            <a href="https://github.com/washingtonpost/data-school-shootings">School shootings data</a> 
+        </td>
     </tr>
     <tr>
         <td rowspan=2>8</td>
