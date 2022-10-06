@@ -296,7 +296,7 @@ Due Oct 4, via Google Forms.
             <br><br>
             Discussing the value of graphics during exploratory analysis
             <br><br>
-            ~~Demystifying basic statistic concepts~~
+            <del>Demystifying basic statistic concepts</del>
         </td>
         <td></td>
     </tr>
@@ -305,7 +305,7 @@ Due Oct 4, via Google Forms.
         <td>
             Watch <a href="https://coursera.org/lecture/dataviz-design/what-is-exploratory-and-explanatory-analysis-QeFi3">this</a> to learn about exploratory analysis for specialized users
         </td>
-        <td>Coding a ~~histogram and a scatter plot~~ a simple filter</td>
+        <td>Coding a <del>histogram and a scatter plot</del> simple filter</td>
         <td>
             <a href="https://github.com/washingtonpost/data-school-shootings">School shootings data</a> 
         </td>
