@@ -362,7 +362,7 @@ Plan your project:
 Due Oct 11, via Google Forms.
 ```
 
-
+[Answer the Google Form ↗](https://forms.gle/8UNSaFrcwbNFmvdy9)
 
 ##### Assignment: 🎤 Presentation
 ```
