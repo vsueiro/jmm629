@@ -307,7 +307,9 @@ Due Oct 4, via Google Forms.
         </td>
         <td>Coding a <del>histogram and a scatter plot</del> simple filter</td>
         <td>
-            <a href="https://github.com/washingtonpost/data-school-shootings">School shootings data</a> 
+            <a href="https://github.com/washingtonpost/data-school-shootings">School shootings data</a>
+            <br><br>
+            <a href="https://codesandbox.io/s/data-filter-9zr9p8">Sandbox</a>
         </td>
     </tr>
     <tr>
