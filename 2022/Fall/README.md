@@ -140,7 +140,7 @@ Submit the following:
 • Why did you pick it?
 • How could it be improved?
 
-Due Sep 6, via Google Forms (exceptionally).
+Due Sep 6, via Google Forms.
 ```
 
 [Answer the Google Form ↗](https://forms.gle/wdS89NrTichbKQZe7)
@@ -329,14 +329,18 @@ Due Oct 4, via Google Forms.
         <td rowspan=2>9</td>
         <td>Oct 18</td>
         <td>Take note of 1-3 tasks you need help with</td>
-        <td>Pairing up with classmates to help each other (instructor may intervene)</td>
-        <td></td>
+        <td>Coding multiple filters</td>
+        <td>
+            <a href="https://miami.zoom.us/rec/share/K5yi50DxelBb0YwyMgkPTJsP5zxUYi-Y0X2uGbpqLKRTmeSDvdb5HCTFzsEj8vFA.qQxTqom5tx_ONs8k">Extra tutorial: interactive bar chart legend</a>
+        </td>
     </tr>
     <tr>
         <td>Oct 20</td>
         <td></td>
-        <td>Pairing up with classmates to help each other (instructor may intervene)</td>
-        <td></td>
+        <td>Coding interactive SVG map</td>
+        <td>
+            <a href="https://codesandbox.io/s/interactive-svg-ie9037?file=/index.html">Sandbox</a>
+        </td>
     </tr>
     <tr>
         <td rowspan=2>10</td>
