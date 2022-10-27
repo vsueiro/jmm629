@@ -8,7 +8,7 @@ Lecturer | Email
 ---|---
 Vinicius Sueiro | hi@vsueiro.com
 
-Last updated on Oct 8, 2022. This document is subject to change.
+Last updated on Oct 27, 2022. This document is subject to change.
 
 ## About the Course
 
@@ -389,7 +389,7 @@ Submit your project:
 • Screen capture or recording
 • Answers to reflective questions about your project
 
-Due Nov 1, via Blackboard.
+Due Nov 3, via Google Forms.
 ```
 
 #### Third Project: Explanatory Visualization
@@ -486,7 +486,7 @@ Plan your project:
 • What is its content?
 • What could it look like?
 
-Due Nov 8, via Blackboard.
+Due Nov 8, via Google Forms.
 ```
 
 ##### Assignment: 🎤 Presentation
@@ -508,7 +508,7 @@ Submit your project:
 • Screen capture or recording
 • Answers to reflective questions about your project
 
-Due Dec 6, via Blackboard.
+Due Dec 6, via Google Forms.
 ```
 
 #### Looking Ahead
