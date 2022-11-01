@@ -392,6 +392,8 @@ Submit your project:
 Due Nov 3, via Google Forms.
 ```
 
+[Submit via Google Forms ↗](https://forms.gle/jDKKjq4pG6TCVGAn8)
+
 #### Third Project: Explanatory Visualization
 *Datavis for communicating data*
 
