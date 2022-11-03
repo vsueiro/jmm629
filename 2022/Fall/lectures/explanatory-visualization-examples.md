@@ -5,7 +5,7 @@
 ### How expensive should the bus fare be? (Estadão)
 [https://www.estadao.com.br/infograficos/cidades,pela-inflacao-tarifa-de-onibus-deveria-cair-quase-20-centavos-nao-subir-30,957454](https://www.estadao.com.br/infograficos/cidades,pela-inflacao-tarifa-de-onibus-deveria-cair-quase-20-centavos-nao-subir-30,957454)
 
-If the link above does not work, try checking this [screen capture](./media/bus-fare-price.png).
+If the link above does not work, try checking this [screen capture](../media/bus-fare-price.png).
 
 ### How can we help health workers by getting vaccinated? (World Health Organization)
 [https://www.facebook.com/WHOEurope/videos/1879798598867016/](https://www.facebook.com/WHOEurope/videos/1879798598867016/)
