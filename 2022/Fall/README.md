@@ -423,14 +423,16 @@ Due Nov 3, via Google Forms.
     <tr>
         <td>Nov 3</td>
         <td>Watch or read <a href="https://www.gurmanbhatia.com/talk/2021/03/09/stories-structure.html">this</a> to learn common structures for visual narratives</td>
-        <td>Coding a step-by-step visual narrative</td>
-        <td></td>
+        <td>Discussing examples</td>
+        <td>
+            <a href="lectures/explanatory-visualization-examples">Explanatory visualization examples</a>
+        </td>
     </tr>
     <tr>
         <td rowspan=2>12</td>
         <td>Nov 8</td>
         <td>Plan your project</td>
-        <td>Translating your idea into code</td>
+        <td>Coding a step-by-step visual narrative</td>
         <td></td>
     </tr>
     <tr>
@@ -455,8 +457,8 @@ Due Nov 3, via Google Forms.
     <tr>
         <td rowspan=2>14</td>
         <td>Nov 22</td>
-        <td>Submit a question for online (Zoom) session with instructor</td>
-        <td>Answering most common questions from students (Zoom)</td>
+        <td>Submit a question</td>
+        <td>🚫 No class (Instructor will record 1 or more tutorials based on common questions)</td>
         <td></td>
     </tr>
     <tr>
