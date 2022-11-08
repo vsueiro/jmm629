@@ -8,7 +8,7 @@ Lecturer | Email
 ---|---
 Vinicius Sueiro | hi@vsueiro.com
 
-Last updated on Nov 3, 2022. This document is subject to change.
+Last updated on Nov 8, 2022. This document is subject to change.
 
 ## About the Course
 
@@ -490,8 +490,11 @@ Plan your project:
 • What is its content?
 • What could it look like?
 
-Due Nov 8, via Google Forms.
+Due Nov  ̵8̵ ̵ 10, via Google Forms.
 ```
+
+[Answer the Google Form ↗](https://forms.gle/jRm4QuWjS3a1eaBXA)
+
 
 ##### Assignment: 🎤 Presentation
 ```
