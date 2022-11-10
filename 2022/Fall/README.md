@@ -432,14 +432,16 @@ Due Nov 3, via Google Forms.
         <td rowspan=2>12</td>
         <td>Nov 8</td>
         <td>Plan your project</td>
-        <td>Coding a step-by-step visual narrative</td>
+        <td>Discussing student’s project ideas</td>
         <td></td>
     </tr>
     <tr>
         <td>Nov 10</td>
         <td></td>
-        <td>Translating your idea into code</td>
-        <td></td>
+        <td>Coding a step-by-step visual narrative</td>
+        <td>
+            <a href="https://codesandbox.io/s/where-mari-lived-p8fvzf">Sandbox</a>
+        </td>
     </tr>
     <tr>
         <td rowspan=2>13</td>
