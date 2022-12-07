@@ -563,8 +563,10 @@ The format could either be:
 
 Feel free to include sketches, photos or any other media.
 
-Due Dec 14, via Blackboard (instead of Final Exam).
+Due Dec 14, via Google Forms (instead of Final Exam).
 ```
+
+[Submit via Google Forms ↗](https://forms.gle/TKpowMG8vm6sFUP97)
 
 ## Grading
 
