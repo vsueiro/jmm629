@@ -492,7 +492,7 @@ Plan your project:
 • What is its content?
 • What could it look like?
 
-Due Nov  ̵8̵ ̵ 10, via Google Forms.
+Due Nov 10, via Google Forms.
 ```
 
 [Answer the Google Form ↗](https://forms.gle/jRm4QuWjS3a1eaBXA)
@@ -506,7 +506,7 @@ Present your project (10 min):
 • Process
 • Learnings
 
-Due Dec 1, during class.
+Due Dec 6, during class.
 ```
 
 ##### Assignment: 💻 Submission
@@ -517,8 +517,11 @@ Submit your project:
 • Screen capture or recording
 • Answers to reflective questions about your project
 
-Due Dec 6, via Google Forms.
+Due Dec 14, via Google Forms.
 ```
+
+[Submit via Google Forms ↗](https://forms.gle/R2oGYK9srvhn8bNs7)
+
 
 #### Looking Ahead
 ![Character with telescope](assets/looking-ahead.png)
