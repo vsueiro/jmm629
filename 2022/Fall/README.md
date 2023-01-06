@@ -4,9 +4,9 @@ This is the main document for the JMM 429/629 course at University of Miami, Fal
 
 🗓 Classes on Tuesdays and Thursdays, from `3:30` to `4:45 pm`.
 
-Lecturer | Email
----|---
-Vinicius Sueiro | hi@vsueiro.com
+| Lecturer        | Email           |
+| --------------- | --------------- |
+| Vinicius Sueiro | vss43@miami.edu |
 
 Last updated on Dec 7, 2022. This document is subject to change.
 
@@ -66,6 +66,7 @@ After the presentation, students are free to adjust the project (based on that f
 The following tables briefly describe what we will be doing during class (“Content”) and what you are expected to do before each class (“Preparation”).
 
 #### Introduction
+
 ![Chart shows a step with 2 weeks](assets/part-0.png)
 
 <table>
@@ -122,7 +123,8 @@ The following tables briefly describe what we will be doing during class (“Con
     </tr>
 </table>
 
-##### Assignment: 🔍 Analysis 
+##### Assignment: 🔍 Analysis
+
 ```
 Pick a data visualization you saw recently. It could be in:
 
@@ -146,7 +148,8 @@ Due Sep 6, via Google Forms.
 [Answer the Google Form ↗](https://forms.gle/wdS89NrTichbKQZe7)
 
 #### First Project: Input Visualization
-*Datavis for collecting data*
+
+_Datavis for collecting data_
 
 ![Chart shows a step with 3.5 weeks of class plus 1 presentation day 🎤](assets/part-1.png)
 
@@ -236,6 +239,7 @@ Due Sep 6, via Google Forms.
 </table>
 
 ##### Assignment: ✏️ Planning
+
 ```
 Plan your project:
 
@@ -249,6 +253,7 @@ Due Sep 13, via Google Forms.
 [Answer the Google Form ↗](https://forms.gle/7LtQReYLDiMMhqDu6)
 
 ##### Assignment: 🎤 Presentation
+
 ```
 Present your project (10 min):
 
@@ -260,6 +265,7 @@ Due Sep 29, during class.
 ```
 
 ##### Assignment: 💻 Submission
+
 ```
 Submit your project:
 
@@ -273,7 +279,8 @@ Due Oct 4, via Google Forms.
 [Submit via Google Forms ↗](https://forms.gle/nHUsqgvSSm4sE5dk7)
 
 #### Second Project: Exploratory Visualization
-*Datavis for analyzing data*
+
+_Datavis for analyzing data_
 
 ![Chart shows a step with 3.5 weeks of class plus 1 presentation day 🎤](assets/part-2.png)
 
@@ -358,6 +365,7 @@ Due Oct 4, via Google Forms.
 </table>
 
 ##### Assignment: ✏️ Planning
+
 ```
 Plan your project:
 
@@ -371,6 +379,7 @@ Due Oct 11, via Google Forms.
 [Answer the Google Form ↗](https://forms.gle/8UNSaFrcwbNFmvdy9)
 
 ##### Assignment: 🎤 Presentation
+
 ```
 Present your project (10 min):
 
@@ -382,6 +391,7 @@ Due Oct 27, during class.
 ```
 
 ##### Assignment: 💻 Submission
+
 ```
 Submit your project:
 
@@ -395,7 +405,8 @@ Due Nov 3, via Google Forms.
 [Submit via Google Forms ↗](https://forms.gle/jDKKjq4pG6TCVGAn8)
 
 #### Third Project: Explanatory Visualization
-*Datavis for communicating data*
+
+_Datavis for communicating data_
 
 ![Chart shows a step with 4.5 weeks of class plus 1 presentation day 🎤](assets/part-3.png)
 
@@ -485,6 +496,7 @@ Due Nov 3, via Google Forms.
 </table>
 
 ##### Assignment: ✏️ Planning
+
 ```
 Plan your project:
 
@@ -497,8 +509,8 @@ Due Nov 10, via Google Forms.
 
 [Answer the Google Form ↗](https://forms.gle/jRm4QuWjS3a1eaBXA)
 
-
 ##### Assignment: 🎤 Presentation
+
 ```
 Present your project (10 min):
 
@@ -510,6 +522,7 @@ Due Dec 6, during class.
 ```
 
 ##### Assignment: 💻 Submission
+
 ```
 Submit your project:
 
@@ -522,8 +535,8 @@ Due Dec 14, via Google Forms.
 
 [Submit via Google Forms ↗](https://forms.gle/R2oGYK9srvhn8bNs7)
 
-
 #### Looking Ahead
+
 ![Character with telescope](assets/looking-ahead.png)
 
 <table>
@@ -549,7 +562,8 @@ Due Dec 14, via Google Forms.
     </tr>
 </table>
 
-##### Assignment: 🔭 Self-reflection 
+##### Assignment: 🔭 Self-reflection
+
 ```
 Submit a self-reflection considering:
 
@@ -634,19 +648,19 @@ quality of work, etc.
 
 ### Grading Scale
 
-Grade | Points
----|---
-A+ | ≥ 97
-A | ≥ 93
-A- | ≥ 90
-B+ | ≥ 87
-B | ≥ 83
-B- | ≥ 80
-C+ | ≥ 77
-C | ≥ 70
-D+ | ≥ 65
-D | ≥ 60
-F | ≥ 0
+| Grade | Points |
+| ----- | ------ |
+| A+    | ≥ 97   |
+| A     | ≥ 93   |
+| A-    | ≥ 90   |
+| B+    | ≥ 87   |
+| B     | ≥ 83   |
+| B-    | ≥ 80   |
+| C+    | ≥ 77   |
+| C     | ≥ 70   |
+| D+    | ≥ 65   |
+| D     | ≥ 60   |
+| F     | ≥ 0    |
 
 ## Office Hours
 
@@ -659,35 +673,37 @@ Students may schedule individual sessions with the instructor. Please use [Calen
 It is the student’s obligation to provide faculty members with notice of the dates they will be absent for religious holy days. Students are responsible for material covered in class regardless of their presence. The University’s complete Religious Holy Day Policy can be found in the current Bulletin.
 
 ### Attendance Policy
-Class attendance is critical to the success of this hands-on class, including class participation in discussions and completion of in-class assignments. All students are responsible for material covered in the classroom regardless of their presence; therefore, check the Blackboard class for announcements and assignment requirements and due dates. Do not email your instructor to find out what has been posted to Blackboard. Late work will not be accepted unless an extension has formally been requested prior to the deadline and approved on a needs only basis. 
+
+Class attendance is critical to the success of this hands-on class, including class participation in discussions and completion of in-class assignments. All students are responsible for material covered in the classroom regardless of their presence; therefore, check the Blackboard class for announcements and assignment requirements and due dates. Do not email your instructor to find out what has been posted to Blackboard. Late work will not be accepted unless an extension has formally been requested prior to the deadline and approved on a needs only basis.
 
 ### Recording Policy
+
 Students are expressly prohibited from recording any part of this course. If any recordings are available to students they are intended to supplement the classroom experience. Students are expected to follow appropriate University policies and maintain the security of passwords used to access recorded lectures. Recordings may not be reproduced, shared with those not in the class, or uploaded to other online environments.
 
-If the instructor or a University of Miami office plans any other uses for the recordings, beyond this class, students identifiable in the recordings will be notified to request consent prior to such use. Instructors are the copyright owner of the courseware; individual recordings of the materials on Blackboard or Microsoft Teams and/or of the virtual sessions are not allowed; and that such materials cannot be shared outside the physical or virtual classroom environment. 
+If the instructor or a University of Miami office plans any other uses for the recordings, beyond this class, students identifiable in the recordings will be notified to request consent prior to such use. Instructors are the copyright owner of the courseware; individual recordings of the materials on Blackboard or Microsoft Teams and/or of the virtual sessions are not allowed; and that such materials cannot be shared outside the physical or virtual classroom environment.
 
 ### Honor Code & Plagiarism Statements
 
-Students enrolled in this course are expected to abide by the University of Miami Honor Code. The purpose of the Honor Code is to protect the academic integrity of the University by encouraging consistent ethical behavior in assigned coursework. Academic dishonesty of any kind, for whatever reason, will not be tolerated. 
+Students enrolled in this course are expected to abide by the University of Miami Honor Code. The purpose of the Honor Code is to protect the academic integrity of the University by encouraging consistent ethical behavior in assigned coursework. Academic dishonesty of any kind, for whatever reason, will not be tolerated.
 
-No honest student wants to be guilty of the intellectual crime of plagiarism, even unintentionally. Therefore, we provide you with these guidelines so that you don’t accidentally fall into the plagiarism trap. 
+No honest student wants to be guilty of the intellectual crime of plagiarism, even unintentionally. Therefore, we provide you with these guidelines so that you don’t accidentally fall into the plagiarism trap.
 
-Plagiarism is the taking of someone else’s words, work, or ideas, and passing them off as a product of your own efforts. Plagiarism may occur when a person fails to place quotation marks around someone else’s exact words, directly rephrasing or paraphrasing someone else’s words while still following the general form of the original, and/or failing to issue the proper citation to one’s source material. 
+Plagiarism is the taking of someone else’s words, work, or ideas, and passing them off as a product of your own efforts. Plagiarism may occur when a person fails to place quotation marks around someone else’s exact words, directly rephrasing or paraphrasing someone else’s words while still following the general form of the original, and/or failing to issue the proper citation to one’s source material.
 
-In student papers, plagiarism is often due to: 
+In student papers, plagiarism is often due to:
 
-- Turning in someone else’s paper as one’s own 
-- Using another person’s data or ideas without acknowledgment 
-- Failing to cite a written source (printed or internet) of information that you used to collect data or ideas 
-- Copying an author’s exact words and putting them in the paper without quotation marks 
-- Rephrasing an author’s words and failing to cite the source 
+- Turning in someone else’s paper as one’s own
+- Using another person’s data or ideas without acknowledgment
+- Failing to cite a written source (printed or internet) of information that you used to collect data or ideas
+- Copying an author’s exact words and putting them in the paper without quotation marks
+- Rephrasing an author’s words and failing to cite the source
 - Copying, rephrasing, or quoting an author’s exact words and citing a source other than where the material was obtained.
-- Using wording that is very similar to that of the original source, but passing it off as one’s own. 
+- Using wording that is very similar to that of the original source, but passing it off as one’s own.
 
-The last item is probably the most common problem in student writing. It is still plagiarism if students use an author’s key phrases or sentences in a way that implies they are their own, even if they cite the source. 
+The last item is probably the most common problem in student writing. It is still plagiarism if students use an author’s key phrases or sentences in a way that implies they are their own, even if they cite the source.
 
 ### Well-Being Resources & Support
 
-As you complete your coursework, consider how you can maintain your health and well-being as a top priority. To help you become familiar with the many programs and services available on campus, review the information collected on the Student Well-Being and Resiliency website available at [miami.edu/well-being](https://miami.edu/well-being). 
+As you complete your coursework, consider how you can maintain your health and well-being as a top priority. To help you become familiar with the many programs and services available on campus, review the information collected on the Student Well-Being and Resiliency website available at [miami.edu/well-being](https://miami.edu/well-being).
 
-Please reach out to me or any of the resources listed on the site if you need assistance or support throughout the semester. 
+Please reach out to me or any of the resources listed on the site if you need assistance or support throughout the semester.
