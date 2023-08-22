@@ -28,16 +28,20 @@ By the end of this course, students should be able to:
 
 In order to reach the desired goals, students will learn how data visualization may be employed during all phases of a project:
 
-- Visualizing (using visuals to see numberss)
-- Communicating (using visuals to tell stories)
-- Analyzing (using visuals to find insights)
-- Collecting (using visuals to gather data)
+- [Visual Variables](https://en.wikipedia.org/wiki/Visual_variable) (turning numbers into images)
+- [Exploratory](https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis) Tools (using visuals to find insights)
+- [Explanatory](https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis) Narratives (using visuals to tell stories)
 
-Since this is a practical course focused on a web environment, we will also learn about the following core technologies:
+Since this is a hands-on course focused on a web environment, we will also learn about the following core web technologies:
 
 - 🧱 [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) (to define structure and content)
 - 🎨 [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) (to apply visual styles)
-- ✨ [JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) (to turn data into [visual variables](https://en.wikipedia.org/wiki/Visual_variable))
+- ✨ [JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) (to make it dynamic & interactive)
+
+This course also covers tools that help us organize and scale up our projects:
+
+- [CodeSandbox](https://codesandbox.io/) (to write code without installing stuff)
+- [Vercel](https://vercel.com/) `Optional` (to easily deploy your website)
 
 All tools are free (or provide a free version).
 
