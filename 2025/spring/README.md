@@ -72,9 +72,7 @@ We will not learn everything at once. Instead, this course is split into a few s
 
 #### Presentation day
 
-For each project, students will share their initial **planning** and their final **data-driven project** with the whole class.
-
-In order to present, students need to sign-up for 5-min **presentation slots** (instructions will be provided via Blackboard).
+For each project, students will share their final **project** with the whole class. For the third project, students will also present their **planning** beforehand, so they can to get early feedback on their idea. In order to present, students need to sign-up for 5-min **presentation slots** (instructions will be provided via Blackboard).
 
 #### Peer Feedback
 
@@ -111,6 +109,8 @@ The following tables describe what you are expected to do before class (“Prepa
 
 I reserve the right to adjust the final grade according to class participation, attendance, overall quality of work, etc.
 
+<!--
+
 ### Grading Breakdown
 
 | Step                          | Weight    | Assignment      | Task          | Points |
@@ -133,6 +133,8 @@ I reserve the right to adjust the final grade according to class participation, 
 | \*                            | \*        | \*              | Peer Feedback | 5      |
 | \*                            | \*        | \*              | Submission    | 5      |
 | Final Exam                    | 10 Points | Self-reflection | Submission    | 10     |
+
+-->
 
 #### Missed a task?
 
