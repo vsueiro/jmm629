@@ -53,10 +53,16 @@ Since this is a hands-on course focused on a web environment, we will also learn
 
 This course also covers tools that help us organize and scale up our projects:
 
-- [CodeSandbox](https://codesandbox.io/) (to write code without installing stuff)
-- [Vercel](https://vercel.com/) `Optional` (to easily deploy your website)
+- [Visual Studio Code](https://code.visualstudio.com/) (to write code and preview it on your computer)
+- [GitHub](https://github.com/) + [GitHub Desktop](https://github.com/apps/desktop) + [GitHub Pages](https://pages.github.com/) (to store and deploy your website)
 
-All tools are free (or provide a free version).
+Optionally:
+
+- [CodeSandbox](https://codesandbox.io/) or [StackBlitz](https://stackblitz.com/) (to use frameworks without installing stuff)
+- [React](https://reactjs.org/) or [Svelte](https://reactjs.org/) (to organize your website into components)
+- [Squarespace Domains](https://domains.squarespace.com/) or similar (to rent a friendly name, like “example.com”)
+
+All tools are free (or provide a free version), except custom domains. 💸
 
 ### Course Timeline
 
