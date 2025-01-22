@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bar Chart</title>
+    <style>
+      #chart {
+        display: flex;
+        gap: 10px;
+        align-items: end;
+      }
+
+      #chart div {
+        background: red;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chart">
+      <!--   
+      <div style="height: 100px"></div>
+      <div style="height: 200px"></div>
+      <div style="height: 300px"></div>
+      -->
+    </div>
+
+    <script>
+      var data = [1, 2, 3];
+
+      for (var item of data) {
+        chart.innerHTML += `<div style="height: ${item * 100}px"></div>`;
+      }
+    </script>
+  </body>
+</html>
