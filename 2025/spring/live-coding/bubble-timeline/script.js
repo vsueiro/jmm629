@@ -35,12 +35,17 @@ let radiusScale = d3.scaleSqrt().domain([0, maxDuration]).range([0, r]);
 
 // Add horizontal lines every 6h
 for (let tick of [0, 6, 12, 18, 24]) {
+  // Define vertical alignment of text
+  let alignment = "middle";
+  if (tick === 0) alignment = "baseline";
+  if (tick === 24) alignment = "hanging";
+
   // Add axis label
   chart.innerHTML += `<text
     x="-12"
     y="${yScale(tick)}"
     text-anchor="end"
-    alignment-baseline="middle"
+    alignment-baseline="${alignment}"
     fill="black"
     font-size="12"
     font-family="sans-serif"
