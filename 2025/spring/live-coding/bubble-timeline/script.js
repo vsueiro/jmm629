@@ -33,6 +33,34 @@ let yScale = d3.scaleLinear().domain([0, 24]).range([h, 0]);
 
 let radiusScale = d3.scaleSqrt().domain([0, maxDuration]).range([0, r]);
 
+// Add horizontal lines every 6h
+for (let tick of [0, 6, 12, 18, 24]) {
+  // Add axis label
+  chart.innerHTML += `<text
+    x="-12"
+    y="${yScale(tick)}"
+    text-anchor="end"
+    alignment-baseline="middle"
+    fill="black"
+    font-size="12"
+    font-family="sans-serif"
+  >${tick}h</text>
+  `;
+
+  if (tick === 0 || tick === 24) {
+    continue;
+  }
+  // Add a axis lines
+  chart.innerHTML += `<line
+    x1="0"
+    y1="${yScale(tick)}"
+    x2="${w}"
+    y2="${yScale(tick)}"
+    stroke="lightgray"
+    ></line>
+  `;
+}
+
 // Add border
 chart.innerHTML += `
   <rect
@@ -40,22 +68,8 @@ chart.innerHTML += `
     height="${h}"
     fill="none"
     stroke="black"
-  >
-  </rect>
+  ></rect>
 `;
-
-// Add horizontal lines every 6h
-for (let tick of [0, 6, 12, 18]) {
-  // Add a line to my SVG chart
-  chart.innerHTML += `<line
-  x1="0"
-  y1="${yScale(tick)}"
-  x2="${w}"
-  y2="${yScale(tick)}"
-  stroke="lightgray"
-  ></line>
-  `;
-}
 
 // For each row in my dataset of medications
 for (let medication of medications) {
@@ -66,8 +80,8 @@ for (let medication of medications) {
     x2="${xScale(medication.Start)}"
     y2="400"
     stroke="black"
-    ></line>
-    `;
+  ></line>
+  `;
 }
 
 // For each row in my dataset of seizures
@@ -79,8 +93,8 @@ for (let seizure of seizures) {
     r="${radiusScale(seizure.Duration)}"
     fill="${color(scale(seizure.Duration))}"
     fill-opacity="0.5"
-    ></circle>
-    `;
+  ></circle>
+  `;
 
   // Add a tiny circles to my SVG chart
   chart.innerHTML += `<circle 
@@ -88,6 +102,6 @@ for (let seizure of seizures) {
     cy="${yScale(seizure.Start.getHours())}"
     r="${2}"
     fill="${color(scale(seizure.Duration))}"
-    ></circle>
-    `;
+  ></circle>
+  `;
 }
