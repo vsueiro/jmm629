@@ -13,9 +13,18 @@ chart.setAttribute("viewBox", `${-offset} ${-offset} ${w + offset * 2} ${h + off
 const seizures = await d3.csv("mochi-seizures.csv", d3.autoType);
 const medications = await d3.csv("mochi-medications.csv", d3.autoType);
 
+console.log(seizures);
+
 // Get min and max values
 const minDuration = d3.min(seizures, (d) => d.Duration);
 const maxDuration = d3.max(seizures, (d) => d.Duration);
+const minDate = d3.min(seizures, (d) => d.Start);
+const maxDate = d3.max(seizures, (d) => d.Start);
+
+window.highlight = function (circle, flag = true) {
+  console.log("yooo");
+  circle.classList.toggle("highlight", flag);
+};
 
 // Convert duration into 0-1 values
 let scale = d3.scaleLinear().domain([minDuration, maxDuration]).range([0.25, 1]);
@@ -24,10 +33,7 @@ let scale = d3.scaleLinear().domain([minDuration, maxDuration]).range([0.25, 1])
 let color = d3.scaleSequential(d3.interpolateBuPu);
 
 // Convert dates between 0 and 600
-let xScale = d3
-  .scaleTime()
-  .domain([new Date("2025-01-01:00:00:00-05:00"), new Date()])
-  .range([0, 600]);
+let xScale = d3.scaleTime().domain([minDate, maxDate]).range([0, 600]).nice();
 
 let yScale = d3.scaleLinear().domain([0, 24]).range([h, 0]);
 
@@ -46,7 +52,7 @@ for (let tick of [0, 6, 12, 18, 24]) {
     y="${yScale(tick)}"
     text-anchor="end"
     alignment-baseline="${alignment}"
-    fill="black"
+    fill="gray"
     font-size="12"
     font-family="sans-serif"
   >${tick}h</text>
@@ -66,13 +72,28 @@ for (let tick of [0, 6, 12, 18, 24]) {
   `;
 }
 
+// Add vertical lines every X days
+for (let tick of xScale.ticks()) {
+  console.log(tick);
+
+  // Add a axis lines
+  chart.innerHTML += `<line
+    x1="${xScale(tick)}"
+    y1="${h}"
+    x2="${xScale(tick)}"
+    y2="${0}"
+    stroke="lightgray"
+    ></line>
+  `;
+}
+
 // Add border
 chart.innerHTML += `
   <rect
     width="${w}"
     height="${h}"
     fill="none"
-    stroke="black"
+    stroke="lightgray"
   ></rect>
 `;
 
@@ -83,28 +104,34 @@ for (let medication of medications) {
     x1="${xScale(medication.Start)}"
     y1="0"
     x2="${xScale(medication.Start)}"
-    y2="400"
+    y2="${h}"
     stroke="black"
+    stroke-width="2"
   ></line>
   `;
 }
 
 // For each row in my dataset of seizures
 for (let seizure of seizures) {
+  // Get hour of day as decimals
+  const time = seizure.Start.getHours() + seizure.Start.getMinutes() / 60;
+
   // Add a big circles to my SVG chart
   chart.innerHTML += `<circle 
     cx="${xScale(seizure.Start)}"
-    cy="${yScale(seizure.Start.getHours())}"
+    cy="${yScale(time)}"
     r="${radiusScale(seizure.Duration)}"
     fill="${color(scale(seizure.Duration))}"
-    fill-opacity="0.5"
+    fill-opacity="0.6"
+    onmouseover="highlight(this)"
+    onmouseout="highlight(this,false)"
   ></circle>
   `;
 
   // Add a tiny circles to my SVG chart
   chart.innerHTML += `<circle 
     cx="${xScale(seizure.Start)}"
-    cy="${yScale(seizure.Start.getHours())}"
+    cy="${yScale(time)}"
     r="${2}"
     fill="${color(scale(seizure.Duration))}"
   ></circle>
