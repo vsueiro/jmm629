@@ -3,7 +3,7 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 const w = 600;
 const h = 400;
-const r = w * 0.1;
+const r = w * 0.075;
 const offset = r;
 
 // Adjust viewBox (to “zoom out”)
@@ -72,11 +72,21 @@ for (let medication of medications) {
 
 // For each row in my dataset of seizures
 for (let seizure of seizures) {
-  // Add a circle to my SVG chart
+  // Add a big circles to my SVG chart
   chart.innerHTML += `<circle 
     cx="${xScale(seizure.Start)}"
     cy="${yScale(seizure.Start.getHours())}"
     r="${radiusScale(seizure.Duration)}"
+    fill="${color(scale(seizure.Duration))}"
+    fill-opacity="0.5"
+    ></circle>
+    `;
+
+  // Add a tiny circles to my SVG chart
+  chart.innerHTML += `<circle 
+    cx="${xScale(seizure.Start)}"
+    cy="${yScale(seizure.Start.getHours())}"
+    r="${2}"
     fill="${color(scale(seizure.Duration))}"
     ></circle>
     `;
