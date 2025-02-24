@@ -13,18 +13,39 @@ chart.setAttribute("viewBox", `${-offset} ${-offset} ${w + offset * 2} ${h + off
 const seizures = await d3.csv("mochi-seizures.csv", d3.autoType);
 const medications = await d3.csv("mochi-medications.csv", d3.autoType);
 
-console.log(seizures);
-
 // Get min and max values
 const minDuration = d3.min(seizures, (d) => d.Duration);
 const maxDuration = d3.max(seizures, (d) => d.Duration);
 const minDate = d3.min(seizures, (d) => d.Start);
 const maxDate = d3.max(seizures, (d) => d.Start);
 
-window.highlight = function (circle, flag = true) {
-  console.log("yooo");
+// Global Variables
+window.hoveredElement;
+
+// Global Events
+window.highlight = (circle, flag = true) => {
   circle.classList.toggle("highlight", flag);
+  window.hoveredElement = flag ? circle : undefined;
 };
+
+window.moveTooltip = (event) => {
+  const { x, y } = event;
+  const tooltip = document.querySelector("#tooltip");
+
+  tooltip.style.left = x + "px";
+  tooltip.style.top = y + "px";
+
+  if (window.hoveredElement) {
+    tooltip.style.opacity = 1;
+    tooltip.innerHTML = window.hoveredElement.dataset.tooltip;
+    return;
+  }
+
+  tooltip.style.opacity = 0;
+};
+
+// Event listeners
+window.onpointermove = moveTooltip;
 
 // Convert duration into 0-1 values
 let scale = d3.scaleLinear().domain([minDuration, maxDuration]).range([0.25, 1]);
@@ -74,8 +95,6 @@ for (let tick of [0, 6, 12, 18, 24]) {
 
 // Add vertical lines every X days
 for (let tick of xScale.ticks()) {
-  console.log(tick);
-
   // Add a axis lines
   chart.innerHTML += `<line
     x1="${xScale(tick)}"
@@ -116,6 +135,27 @@ for (let seizure of seizures) {
   // Get hour of day as decimals
   const time = seizure.Start.getHours() + seizure.Start.getMinutes() / 60;
 
+  // Format text for tooltip
+  const formatted = {};
+  formatted.date = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(seizure.Start);
+
+  formatted.time = new Intl.DateTimeFormat("en-US", {
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+  }).format(seizure.Start);
+
+  formatted.duration =
+    seizure.Duration < 60
+      ? `${seizure.Duration}s`
+      : `${Math.floor(seizure.Duration / 60)}m${seizure.Duration % 60 === 0 ? "" : (seizure.Duration % 60) + "s"}`;
+
+  const text = `${formatted.date} <br> ${formatted.time}<br> Lasted ${formatted.duration} `;
+
   // Add a big circles to my SVG chart
   chart.innerHTML += `<circle 
     cx="${xScale(seizure.Start)}"
@@ -123,6 +163,7 @@ for (let seizure of seizures) {
     r="${radiusScale(seizure.Duration)}"
     fill="${color(scale(seizure.Duration))}"
     fill-opacity="0.6"
+    data-tooltip="${text}"
     onmouseover="highlight(this)"
     onmouseout="highlight(this,false)"
   ></circle>
@@ -134,6 +175,7 @@ for (let seizure of seizures) {
     cy="${yScale(time)}"
     r="${2}"
     fill="${color(scale(seizure.Duration))}"
+    style="pointer-events: none"
   ></circle>
   `;
 }
