@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exploration</title>
+    <style>
+      #square {
+        background: blue;
+        width: 50px;
+        aspect-ratio: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="range" id="slider" />
+    <div id="square"></div>
+
+    <script>
+      function updateChart() {
+        square.style.width = slider.value + "px";
+      }
+
+      slider.oninput = updateChart;
+    </script>
+
+    <!-- <button>Show all categories</button>
+
+    <br />
+
+    <input type="text" />
+
+    <br /> -->
+
+    <!-- <br />
+
+    <input type="radio" name="category" /> Abc
+    <br />
+    <input type="radio" name="category" /> Xyz
+    <br />
+    <input type="radio" name="category" /> Jkl -->
+  </body>
+</html>
