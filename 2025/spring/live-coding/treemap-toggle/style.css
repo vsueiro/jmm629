@@ -1,0 +1,31 @@
+body {
+  background: lavender;
+  color: indigo;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  padding: 1em 0.5em;
+  user-select: none;
+}
+
+#chart {
+  /* height: 400px; */
+  aspect-ratio: 3/2;
+  background: ghostwhite;
+  place-self: center;
+  position: relative;
+  width: 840px;
+}
+
+.building {
+  background: rebeccapurple;
+  border: 1px solid ghostwhite;
+  color: ghostwhite;
+  place-content: center;
+  position: absolute;
+  transition: top 0.4s, left 0.4s, scale 0.4s, translate 0.4s;
+  /* outline: 1px solid red; */
+}
