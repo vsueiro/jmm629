@@ -70,9 +70,6 @@ let yScale = d3.scaleLinear().domain([0, 24]).range([h, 0]);
 
 let radiusScale = d3.scaleSqrt().domain([0, maxDuration]).range([0, r]);
 
-let ticks = [0, 6, 12, 18, 24];
-// let ticks = [0, 6, 14, 22, 24];
-
 // Add 1 week length legend
 const weekEnd = xScale(new Date("2025-01-12T00:00:00-05:00"));
 chart.innerHTML = `
@@ -80,14 +77,18 @@ chart.innerHTML = `
     x="${weekEnd / 2}"
     y="-28"
     text-anchor="middle"
+    alignment-baseline="baseline"
     fill="black"
     font-size="12"
     font-family="sans-serif"
   >1 week</text>
   <path d="M 0 -12 L 0 -18 L ${weekEnd} -18 L ${weekEnd} -12" stroke="black" fill="none"></path>`;
 
+let yTicks = [0, 6, 12, 18, 24];
+// let yTicks = [0, 6, 14, 22, 24];
+
 // Add horizontal lines every 6h
-for (let tick of ticks) {
+for (let tick of yTicks) {
   // Define vertical alignment of text
   let alignment = "middle";
   if (tick === 0) alignment = "baseline";
@@ -119,17 +120,49 @@ for (let tick of ticks) {
   `;
 }
 
+// Keep track of date of previous tick, for formatting
+let prevDate = "";
+
 // Add vertical lines every X days
 for (let tick of xScale.ticks()) {
-  // Add a axis lines
+  const x = xScale(tick);
+
+  let date = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+  }).format(tick);
+
+  let month = date.substring(0, 3);
+  let day = date.replace(month, "").trim();
+
+  // Add axis lines
   chart.innerHTML += `<line
-    x1="${xScale(tick)}"
+    x1="${x}"
     y1="${h}"
-    x2="${xScale(tick)}"
+    x2="${x}"
     y2="${0}"
     stroke="lightgray"
     ></line>
   `;
+
+  // Add axis labels
+  chart.innerHTML += `<text
+    x="${x}"
+    y="${h + 18}"
+    fill="gray"
+    text-anchor="start"
+    
+    fill="gray"
+    font-size="12"
+    font-family="sans-serif"
+  >
+    <tspan x="${x}" >${prevDate.startsWith(month) ? "&nbsp;" : month}</tspan>
+    <tspan x="${x}" dy="1.2em">${day}</tspan>
+    
+  </text>
+  `;
+
+  prevDate = date;
 }
 
 // Add border
@@ -166,13 +199,13 @@ for (let medication of medications) {
   // Add medication label
   chart.innerHTML += `<text
     x="${x}"
-    y="${0 - 42}"
-    
+    y="-28"
+    class="medication"
     fill="black"
     font-size="12"
     font-family="sans-serif"
   >
-    <tspan x="${x}" dy="1.2em"s>${medication.Label}</tspan>
+    <tspan x="${x}">${medication.Label}</tspan>
     <tspan x="${x}" dy="1.2em">${date}</tspan>
     
   </text>
