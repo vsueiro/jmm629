@@ -9,6 +9,14 @@ const offset = r;
 // Adjust viewBox (to “zoom out”)
 chart.setAttribute("viewBox", `${-offset} ${-offset} ${w + offset * 2} ${h + offset * 2}`);
 
+// Function to get today’s date as ISO string in current timezone
+// const today = () =>
+//   new Date().toISOString().slice(0, -1) +
+//   (new Date().getTimezoneOffset() > 0 ? "-" : "+") +
+//   String(Math.abs(Math.floor(new Date().getTimezoneOffset() / 60))).padStart(2, "0") +
+//   ":" +
+//   String(Math.abs(new Date().getTimezoneOffset() % 60)).padStart(2, "0");
+
 // Read data
 const seizures = await d3.csv("mochi-seizures.csv", d3.autoType);
 const medications = await d3.csv("mochi-medications.csv", d3.autoType);
@@ -16,8 +24,10 @@ const medications = await d3.csv("mochi-medications.csv", d3.autoType);
 // Get min and max values
 const minDuration = d3.min(seizures, (d) => d.Duration);
 const maxDuration = d3.max(seizures, (d) => d.Duration);
-const minDate = d3.min(seizures, (d) => d.Start);
-const maxDate = d3.max(seizures, (d) => d.Start);
+// const minDate = d3.min(seizures, (d) => d.Start);
+const minDate = new Date("2025-01-05T00:00:00-05:00");
+// const maxDate = d3.max(seizures, (d) => d.Start);
+const maxDate = new Date();
 
 // Global Variables
 window.hoveredElement;
@@ -54,14 +64,30 @@ let scale = d3.scaleLinear().domain([minDuration, maxDuration]).range([0.25, 1])
 let color = d3.scaleSequential(d3.interpolateBuPu);
 
 // Convert dates between 0 and 600
-let xScale = d3.scaleTime().domain([minDate, maxDate]).range([0, 600]).nice();
+let xScale = d3.scaleTime().domain([minDate, maxDate]).range([0, 600]); //.nice();
 
 let yScale = d3.scaleLinear().domain([0, 24]).range([h, 0]);
 
 let radiusScale = d3.scaleSqrt().domain([0, maxDuration]).range([0, r]);
 
+let ticks = [0, 6, 12, 18, 24];
+// let ticks = [0, 6, 14, 22, 24];
+
+// Add 1 week length legend
+const weekEnd = xScale(new Date("2025-01-12T00:00:00-05:00"));
+chart.innerHTML = `
+  <text
+    x="${weekEnd / 2}"
+    y="-28"
+    text-anchor="middle"
+    fill="black"
+    font-size="12"
+    font-family="sans-serif"
+  >1 week</text>
+  <path d="M 0 -12 L 0 -18 L ${weekEnd} -18 L ${weekEnd} -12" stroke="black" fill="none"></path>`;
+
 // Add horizontal lines every 6h
-for (let tick of [0, 6, 12, 18, 24]) {
+for (let tick of ticks) {
   // Define vertical alignment of text
   let alignment = "middle";
   if (tick === 0) alignment = "baseline";
@@ -118,15 +144,38 @@ chart.innerHTML += `
 
 // For each row in my dataset of medications
 for (let medication of medications) {
+  const x = xScale(medication.Start);
+
   // Add a line to my SVG chart
   chart.innerHTML += `<line
-    x1="${xScale(medication.Start)}"
+    x1="${x}"
     y1="0"
-    x2="${xScale(medication.Start)}"
+    x2="${x}"
     y2="${h}"
     stroke="black"
     stroke-width="2"
   ></line>
+  `;
+
+  const date = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(medication.Start);
+
+  // Add medication label
+  chart.innerHTML += `<text
+    x="${x}"
+    y="${0 - 42}"
+    
+    fill="black"
+    font-size="12"
+    font-family="sans-serif"
+  >
+    <tspan x="${x}" dy="1.2em"s>${medication.Label}</tspan>
+    <tspan x="${x}" dy="1.2em">${date}</tspan>
+    
+  </text>
   `;
 }
 
