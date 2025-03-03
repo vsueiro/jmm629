@@ -58,7 +58,7 @@ window.moveTooltip = (event) => {
 window.onpointermove = moveTooltip;
 
 // Convert duration into 0-1 values
-let scale = d3.scaleLinear().domain([minDuration, maxDuration]).range([0.25, 1]);
+let scale = d3.scaleLinear().domain([minDuration, maxDuration]).range([0.33, 1]);
 
 // Get color based on 0-1 values
 let color = d3.scaleSequential(d3.interpolateBuPu);
@@ -116,6 +116,7 @@ for (let tick of yTicks) {
     x2="${w}"
     y2="${yScale(tick)}"
     stroke="lightgray"
+    opacity=".5"
     ></line>
   `;
 }
@@ -142,6 +143,7 @@ for (let tick of xScale.ticks()) {
     x2="${x}"
     y2="${0}"
     stroke="lightgray"
+    opacity=".5"
     ></line>
   `;
 
@@ -260,4 +262,23 @@ for (let seizure of seizures) {
     style="pointer-events: none"
   ></circle>
   `;
+
+  // If is min or max duration
+  if (minDuration === seizure.Duration || maxDuration === seizure.Duration) {
+    // Add duration label
+    chart.innerHTML += `<text
+      x="${xScale(seizure.Start)}"
+      y="${yScale(time) + radiusScale(seizure.Duration) + 6}"
+      fill="${color(scale(seizure.Duration))}"
+      font-size="12"
+      style="font-weight: bold"
+      text-anchor="middle"
+      alignment-baseline="hanging"
+      font-family="sans-serif"
+      class="duration"
+    >
+    Lasted ${formatted.duration}
+    </text>
+    `;
+  }
 }

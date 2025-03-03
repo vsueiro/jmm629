@@ -10,9 +10,19 @@
         font-family: sans-serif;
       }
 
-      svg {
-        /* outline: 1px solid; */
+      section {
+        width: 100%;
         max-width: 960px;
+        place-self: center;
+      }
+
+      header {
+        margin-block: 4em 2em;
+      }
+
+      #chart {
+        /* outline: 1px solid; */
+        max-width: 100%;
         place-self: center;
         display: block;
       }
@@ -39,10 +49,24 @@
       text.medication tspan:first-child {
         font-weight: bold;
       }
+
+      text.duration {
+        paint-order: stroke;
+        stroke: white;
+        stroke-width: 2px;
+        stroke-linecap: butt;
+        stroke-linejoin: miter;
+      }
     </style>
   </head>
   <body>
-    <svg id="chart"></svg>
-    <div id="tooltip"></div>
+    <section>
+      <header>
+        <h1>Mochi Seizures 🐈‍⬛</h1>
+        <p>By date (x), time of day (y), and duration (size & color)</p>
+      </header>
+      <svg id="chart"></svg>
+      <div id="tooltip"></div>
+    </section>
   </body>
 </html>
