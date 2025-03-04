@@ -8,6 +8,7 @@
     <style>
       body {
         font-family: sans-serif;
+        margin: 1.6em;
       }
 
       section {
@@ -18,6 +19,11 @@
 
       header {
         margin-block: 4em 2em;
+      }
+
+      header h1,
+      header h2 {
+        margin-bottom: 0;
       }
 
       #chart {
@@ -57,6 +63,82 @@
         stroke-linecap: butt;
         stroke-linejoin: miter;
       }
+
+      #gaps {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding-bottom: 4em;
+      }
+
+      .gap {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .gap p {
+        margin-block: 0.5em;
+      }
+
+      .gap p strong {
+        color: black;
+      }
+
+      .gap p small {
+        color: gray;
+      }
+
+      .gap .bar {
+        flex-shrink: 0;
+        height: 4px;
+        background: black;
+        min-width: 2px;
+        position: relative;
+        margin-left: 12px;
+      }
+
+      .start-circle {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        translate: -100% -50%;
+        width: 12px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+      }
+
+      .end-circle {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        translate: 100% -50%;
+        width: 12px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+      }
+
+      .gap:last-child .end-circle {
+        background: transparent !important;
+        /* border: 1px dotted gray; */
+
+        &::after {
+          position: absolute;
+          display: inline-block;
+          content: "Current";
+          color: gray;
+          font-size: smaller;
+          top: 50%;
+          right: 0px;
+          translate: 100% -50%;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .gap .bar {
+          transform-origin: top left;
+          scale: 0.75;
+        }
+      }
     </style>
   </head>
   <body>
@@ -67,6 +149,12 @@
       </header>
       <svg id="chart"></svg>
       <div id="tooltip"></div>
+
+      <header>
+        <h2>Gaps Between Seizures</h2>
+        <p>In days or hours since last seizure</p>
+      </header>
+      <div id="gaps"></div>
     </section>
   </body>
 </html>

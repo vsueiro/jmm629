@@ -282,3 +282,54 @@ for (let seizure of seizures) {
     `;
   }
 }
+
+// Gaps calculations
+
+function formatTimeDifference(diffMs) {
+  const diffDays = diffMs / (1000 * 60 * 60 * 24);
+  if (diffDays >= 1) return `${Math.floor(diffDays)} days`;
+
+  const diffHours = diffMs / (1000 * 60 * 60);
+  if (diffHours >= 1) return `${Math.floor(diffHours)} hours`;
+
+  const diffMinutes = diffMs / (1000 * 60);
+  return `${Math.floor(diffMinutes)} minutes`;
+}
+
+seizures.forEach((seizure, i) => {
+  const currentDate = seizure.Start;
+  const nextDate = i < seizures.length - 1 ? seizures[i + 1].Start : maxDate;
+  const diffMs = nextDate - currentDate;
+
+  const currentDuration = seizure.Duration;
+  const nextDuration = i < seizures.length - 1 ? seizures[i + 1].Duration : 0;
+
+  let start = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+  }).format(currentDate);
+
+  let end = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: i === 0 ? "numeric" : undefined,
+  }).format(nextDate);
+
+  const startingMonth = start.substring(0, 3);
+
+  if (end.startsWith(startingMonth)) {
+    end = end.replace(startingMonth, "").trim();
+  }
+
+  const text = `<strong>${formatTimeDifference(diffMs)}</strong> <small>${start} to ${end}</small>`;
+  const bar = `<div class="bar" style="width:${diffMs / 3000000}px">
+    <div class="start-circle" style="background: ${color(scale(currentDuration))}"></div>
+    <div class="end-circle" style="background: ${color(scale(nextDuration))}"></div>
+  </div>`;
+
+  gaps.innerHTML += `
+    <div class="gap">
+      <p>${text}</p>
+      ${bar}
+    </div>`;
+});
