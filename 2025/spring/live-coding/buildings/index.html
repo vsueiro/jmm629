@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buildings</title>
+    <style>
+      #chart {
+        background: lavender;
+        width: 800px;
+        height: 600px;
+        place-self: center;
+        position: relative;
+      }
+
+      .building {
+        background: Indigo;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chart">
+      <div class="building"></div>
+      <div class="building"></div>
+    </div>
+
+    <script>
+      let buildings = document.querySelectorAll(".building");
+
+      // for (let building of buildings) {
+      // }
+
+      function move(building) {
+        building.style.left = Math.random() * 700 + "px";
+        building.style.top = Math.random() * 500 + "px";
+      }
+
+      buildings.forEach((building) => {
+        building.onmouseover = () => {
+          move(building);
+        };
+      });
+    </script>
+  </body>
+</html>
