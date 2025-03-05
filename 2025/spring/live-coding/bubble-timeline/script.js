@@ -54,6 +54,22 @@ window.moveTooltip = (event) => {
   tooltip.style.opacity = 0;
 };
 
+window.onclick = (event) => {
+  if (event.target.dataset.tooltip) {
+    window.hoveredElement = event.target;
+    moveTooltip(event);
+    return;
+  }
+
+  window.hoveredElement = undefined;
+  const tooltip = document.querySelector("#tooltip");
+  tooltip.style.opacity = 0;
+
+  document.querySelectorAll("[data-tooltip]").forEach((circle) => {
+    highlight(circle, false);
+  });
+};
+
 // Event listeners
 window.onpointermove = moveTooltip;
 
